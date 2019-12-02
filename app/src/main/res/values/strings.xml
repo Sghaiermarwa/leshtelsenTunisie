@@ -97,6 +97,7 @@
 
     <string name="novotel">Hôtel Novotel Tunis</string>
     <string name="novotel_Description">Hôtel quatre étoiles</string>
+    <string name="title_activity_maps_samron">Map</string>
 
 
 </resources>
