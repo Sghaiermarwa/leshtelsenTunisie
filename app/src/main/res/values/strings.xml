@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Les hôtels en tunisie</string>
+    <string name="image_description">Image d\'item</string>
+    <string name="text1">choisissez le gouvernorat</string>
+    <string name="wifi">Wifi</string>
+    <string name="parking">Parking</string>
+    <string name="bain">Bain à remous </string>
+    <string name="climatisation">Climatisation </string>
+
+    <string name="Ariana">Ariana</string>
+    <string name="Ariana_Description"></string>
+
+    <string name="Béja">Béja</string>
+    <string name="Béja_Description">Béja</string>
+
+    <string name="BenArous">BenArous</string>
+    <string name="BenArous_Description">BenArous</string>
+
+    <string name="Bizerte">Bizerte</string>
+    <string name="Bizerte_Description">Bizerte</string>
+
+    <string name="Gabès">Gabès</string>
+    <string name="Gabès_Description">Gabès</string>
+
+    <string name="Gafsa">Gafsa</string>
+    <string name="Gafsa_Description">Gafsa</string>
+
+    <string name="Jendouba">Jendouba</string>
+    <string name="Jendouba_Description">Jendouba</string>
+
+    <string name="Kairouan">Kairouan</string>
+    <string name="Kairouan_Description">Kairouan</string>
+
+    <string name="Kasserine">Kasserine</string>
+    <string name="Kasserine_Description">Kasserine</string>
+
+    <string name="Kébili">Kébili</string>
+    <string name="Kébili_Description">Kébili</string>
+
+    <string name="LeKef">Le Kef</string>
+    <string name="LeKef_Description">Le Kef</string>
+
+    <string name="Mahdia">Mahdia</string>
+    <string name="Mahdia_Description">Mahdia</string>
+
+    <string name="LaManouba">La Manouba</string>
+    <string name="LaManouba_Description">La Manouba</string>
+
+    <string name="Médenine">Médenine</string>
+    <string name="Médenine_Description">Médenine</string>
+
+    <string name="Monastir">Monastir</string>
+    <string name="Monastir_Description">Monastir</string>
+
+    <string name="Nabeul">Nabeul</string>
+    <string name="Nabeul_Description">Nabeul</string>
+
+    <string name="Sfax">Sfax</string>
+    <string name="Sfax_Description">Sfax</string>
+
+    <string name="SidiBouzid">Sidi Bouzid</string>
+    <string name="SidiBouzid_Description">Sidi Bouzid</string>
+
+    <string name="Siliana">Siliana</string>
+    <string name="Siliana_Description">Siliana</string>
+
+    <string name="Sousse">Sousse</string>
+    <string name="Sousse_Description">Sousse</string>
+
+    <string name="Tataouine">Tataouine</string>
+    <string name="Tataouine_Description">Tataouine</string>
+
+    <string name="Tozeur">Tozeur</string>
+    <string name="Tozeur_Description">Tozeur</string>
+
+    <string name="Tunis">Tunis</string>
+    <string name="Tunis_Description">Tunis</string>
+
+    <string name="Zaghouan">Zaghouan</string>
+    <string name="Zaghouan_Description">Zaghouan</string>
+
+
+    <!-- Toast-->
+    <string name="SélectionItem">Sélection Item</string>
+    <string name="Votrechoix">Votre choix  </string>
+    <string name="ok">ok</string>
+    <string name="search">chercher</string>
+    <!-- Ariana-->
+    <string name="text2"> liste des hôtels en Ariena</string>
+
+    <string name="samron">SAMARONS HOTELS</string>
+    <string name="samron_Description">Hôtel cinq étoiles</string>
+    <string name="samronText">Chambres et suites sophistiquées dans un établissement distingué avec 2 restaurants et un bar contemporain
+        Cet hôtel se trouve à 12 km du musée national du Bardo, et à 13 km de la mosquée Zitouna.
+        Prix Nuit :320 DT</string>
+
+
+    <string name="novotel">Hôtel Novotel Tunis</string>
+    <string name="novotel_Description">Hôtel quatre étoiles</string>
+
+
+</resources>
