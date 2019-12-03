@@ -41,7 +41,7 @@ public class MapsActivitySamron extends FragmentActivity implements OnMapReadyCa
 
         // Add a marker in Sydney and move the camera
         LatLng sydney = new LatLng(36.86012, 10.19337);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
+        mMap.addMarker(new MarkerOptions().position(sydney).title("Aariana,Tunisie"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
 }

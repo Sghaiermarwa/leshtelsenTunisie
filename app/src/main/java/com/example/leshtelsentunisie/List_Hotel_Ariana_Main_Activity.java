@@ -20,7 +20,7 @@ public class List_Hotel_Ariana_Main_Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_list__hotel__ariana__main_);
 
-        // Récupération de la "ListView" créée dans le fichier activity_main.xml
+        // Récupération de la "ListView"
           listHAriana = findViewById(R.id.listHarianaID);
 
         // Création de la "ArrayList" qui nous permettra de remplir la "ListView"
@@ -32,14 +32,14 @@ public class List_Hotel_Ariana_Main_Activity extends AppCompatActivity {
         // Création d'une "HashMap" pour insérer les informations du premier item de notre "ListView"
 
         map = new HashMap<>();
-        map.put("titre", getResources().getString(R.string.samron));
+        map.put("titre", getResources().getString(R.string.samron_Title));
         map.put("description",getResources().getString(R.string.samron_Description));
         map.put("img", String.valueOf(R.drawable.samroun));
         listItem.add(map);
 
         map = new HashMap<>();
-        map.put("titre", getResources().getString(R.string.novotel));
-        map.put("description", getResources().getString(R.string.novotel_Description));
+        map.put("titre", getResources().getString(R.string.penthose_Title));
+        map.put("description", getResources().getString(R.string.penthose_Description));
         map.put("img", String.valueOf(R.drawable.novotel));
         listItem.add(map);
 
@@ -64,7 +64,7 @@ public class List_Hotel_Ariana_Main_Activity extends AppCompatActivity {
                         startActivity(newActivity);
                         break;
                     case 1:
-                        Intent newActivity1 = new Intent(List_Hotel_Ariana_Main_Activity.this, List_Hotel_Beja_Main_Activity.class);
+                        Intent newActivity1 = new Intent(List_Hotel_Ariana_Main_Activity.this, Penthouse_MainActivity.class);
                         startActivity(newActivity1);
                         break;
 

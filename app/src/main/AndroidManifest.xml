@@ -30,20 +30,29 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".MapsActivitySamron"
-            android:label="map">
-
-        </activity>
-        <activity android:name=".Samron_MainActivity" />
+            android:name=".MapsActivityAlrawabi"
+            android:label="@string/title_activity_maps_alrawabi"></activity>
+        <activity android:name=".Alrawabi_MainActivity" />
+        <activity
+            android:name=".MapsActivityRamsam"
+            android:label="@string/title_activity_maps_ramsam" />
+        <activity android:name=".Ramsam_MainActivity" />
         <activity android:name=".List_Hotel_Beja_Main_Activity" />
+        <activity android:name=".Samron_MainActivity" />
+        <activity
+            android:name=".MapsActivityPenthouse"
+            android:label="@string/title_activity_maps_penthouse" />
+        <activity android:name=".Penthouse_MainActivity" />
+        <activity
+            android:name=".MapsActivitySamron"
+            android:label="map" />
         <activity android:name=".List_Hotel_Ariana_Main_Activity" />
         <activity android:name=".MainActivity">
             <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

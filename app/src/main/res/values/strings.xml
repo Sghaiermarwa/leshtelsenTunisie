@@ -1,4 +1,5 @@
 <resources>
+    <string name="singin">SingIn</string>
     <string name="app_name">Les hôtels en tunisie</string>
     <string name="image_description">Image d\'item</string>
     <string name="text1">choisissez le gouvernorat</string>
@@ -6,6 +7,7 @@
     <string name="parking">Parking</string>
     <string name="bain">Bain à remous </string>
     <string name="climatisation">Climatisation </string>
+    <string name="localisation">Localisation</string>
 
     <string name="Ariana">Ariana</string>
     <string name="Ariana_Description"></string>
@@ -87,17 +89,46 @@
     <string name="search">chercher</string>
     <!-- Ariana-->
     <string name="text2"> liste des hôtels en Ariena</string>
-
-    <string name="samron">SAMARONS HOTELS</string>
+    <!-- samronhotel-->
+    <string name="samron_Title">SAMARONS HOTELS</string>
     <string name="samron_Description">Hôtel cinq étoiles</string>
-    <string name="samronText">Chambres et suites sophistiquées dans un établissement distingué avec 2 restaurants et un bar contemporain
+    <string name="samron_Text">Chambres et suites sophistiquées dans un établissement distingué avec 2 restaurants et un bar contemporain
         Cet hôtel se trouve à 12 km du musée national du Bardo, et à 13 km de la mosquée Zitouna.
         Prix Nuit :320 DT</string>
-
-
-    <string name="novotel">Hôtel Novotel Tunis</string>
-    <string name="novotel_Description">Hôtel quatre étoiles</string>
+    <string name="tel_samron">36 400 000</string>
     <string name="title_activity_maps_samron">Map</string>
+    <!-- penthose hotel-->
+    <string name="penthose_Title">Penthose</string>
+    <string name="penthose_Description">Hôtel quatre étoiles</string>
+    <string name="penthouse_Text">Installé dans un quartier résidentiel à proximité de boutiques
+        et de restaurants, se trouve à 7 km de l"aéroport international de Tunis-Carthage et à 10 km du musée national du Bardo,
+        qui est consacré à l'histoire.
+        Prix Nuit :288 DT
+    </string>
+    <string name="tel_penthose">71 811 766</string>
+    <string name="title_activity_maps_penthouse">Map</string>
+
+    <!--Beja-->
+    <string name="listhbeja"> liste des hôtels en Ariena</string>
+    <!-- Hôtel RamSam-->
+    <string name="ramsam_Title">Hôtel RamSam</string>
+    <string name="ramsam_Description">Hôtel deux étoiles</string>
+    <string name="ramsam_Text">Bien pour son emplacement, et sa proximité des lieux à visiter et des transports
+        Prix Nuit :164 DT
+    </string>
+    <string name="tel_ramsam">71 811 777</string>
+    <string name="title_activity_maps_ramsam">Map</string>
+
+    <!-- Hôtel alrawabi-->
+    <string name="alrawabi_Title">Hôtel Alrawabi</string>
+    <string name="alrawabi_Description">Hôtel trois étoiles</string>
+    <string name="alrawabi_Text">Bien pour son emplacement, et sa proximité des lieux à visiter et des transports
+        Chambres sobres dans hôtel coloré avec terrasse commune et piscine extérieure.
+        Prix Nuit :164 DT
+    </string>
+    <string name="tel_alrawabi">78 470 576</string>
+    <string name="alrawabi_activity_maps_ramsam">Map</string>
+    <string name="title_activity_maps_alrawabi">Map</string>
 
 
 </resources>
