@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         map = new HashMap<>();
         map.put("titre",getResources().getString(R.string.BenArous));
         map.put("description",getResources().getString(R.string.BenArous_Description));
-        map.put("img", String.valueOf(R.drawable.beja));
+        map.put("img", String.valueOf(R.drawable.benarous));
         listItem.add(map);
         //Bizerte
         map = new HashMap<>();
@@ -199,7 +199,7 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(newActivity1);
                         break;
                     case 2:
-                        Intent newActivity2 = new Intent(MainActivity.this, List_Hotel_Ariana_Main_Activity.class);
+                        Intent newActivity2 = new Intent(MainActivity.this, List_Hotel_Benarous_Main_Activity.class);
                         startActivity(newActivity2);
                         break;
                     case 3:

@@ -30,8 +30,17 @@
             android:value="@string/google_maps_key" />
 
         <activity
+            android:name=".MapsActivityDarezzahra"
+            android:label="@string/title_activity_maps_darezzahra"></activity>
+        <activity android:name=".Darezzahra_MainActivity" />
+        <activity
+            android:name=".MapsActivityDarsaliam"
+            android:label="@string/title_activity_maps_darsaliam" />
+        <activity android:name=".Darsalima_MainActivity" />
+        <activity android:name=".List_Hotel_Benarous_Main_Activity" />
+        <activity
             android:name=".MapsActivityAlrawabi"
-            android:label="@string/title_activity_maps_alrawabi"></activity>
+            android:label="@string/title_activity_maps_alrawabi" />
         <activity android:name=".Alrawabi_MainActivity" />
         <activity
             android:name=".MapsActivityRamsam"
@@ -45,7 +54,7 @@
         <activity android:name=".Penthouse_MainActivity" />
         <activity
             android:name=".MapsActivitySamron"
-            android:label="map" />
+            android:label="@string/title_activity_maps_samron" />
         <activity android:name=".List_Hotel_Ariana_Main_Activity" />
         <activity android:name=".MainActivity">
             <intent-filter>

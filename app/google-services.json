@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "641522351014",
+    "firebase_url": "https://leshtelsentunisie.firebaseio.com",
+    "project_id": "leshtelsentunisie",
+    "storage_bucket": "leshtelsentunisie.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641522351014:android:d3949faa90587e84eced67",
+        "android_client_info": {
+          "package_name": "com.example.leshtelsentunisie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641522351014-iegfpsm9qnk12aaoaf641u6gbbsdhfsc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.leshtelsentunisie",
+            "certificate_hash": "82e73907171c7dabe04882a66834c2d2b102c7d4"
+          }
+        },
+        {
+          "client_id": "641522351014-8ptbusc006f699necllqls1ip70nkrjs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdrkkIXE5GDw74qtWy3appx5ir-6FYPOg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641522351014-8ptbusc006f699necllqls1ip70nkrjs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
