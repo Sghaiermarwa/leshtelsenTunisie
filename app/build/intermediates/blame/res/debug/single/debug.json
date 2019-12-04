@@ -96,12 +96,12 @@
         "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\layout-watch-v20\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_spinner_textfield_background_material.xml.flat",
-        "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_spinner_textfield_background_material.xml.flat",
+        "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_time.xml.flat",
@@ -124,6 +124,10 @@
         "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\layout\\abc_alert_dialog_title_material.xml"
     },
     {
+        "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_logo_background.png.flat",
+        "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\logo_background.png"
+    },
+    {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_menu_layout.xml.flat",
         "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\layout\\abc_action_menu_layout.xml"
     },
@@ -142,6 +146,10 @@
     {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ramsam__main.xml.flat",
         "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\src\\main\\res\\layout\\activity_ramsam__main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_logo_round.png.flat",
+        "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\src\\main\\res\\mipmap-xxxhdpi\\logo_round.png"
     },
     {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\color_common_google_signin_btn_text_light.xml.flat",
@@ -312,6 +320,10 @@
         "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\src\\main\\res\\drawable\\ramsam3.webp"
     },
     {
+        "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_logo.xml.flat",
+        "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\src\\main\\res\\mipmap-anydpi-v26\\logo.xml"
+    },
+    {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_thumb_material_dark.xml.flat",
         "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\color\\switch_thumb_material_dark.xml"
     },
@@ -388,6 +400,10 @@
         "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
+        "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_logo_round.xml.flat",
+        "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\src\\main\\res\\mipmap-anydpi-v26\\logo_round.xml"
+    },
+    {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
@@ -402,6 +418,10 @@
     {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_logo_round.png.flat",
+        "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\src\\main\\res\\mipmap-xhdpi\\logo_round.png"
     },
     {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_menu_overflow_material.xml.flat",
@@ -422,6 +442,10 @@
     {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logo_background.png.flat",
+        "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\logo_background.png"
     },
     {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
@@ -800,6 +824,10 @@
         "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\interpolator\\btn_radio_to_off_mtrl_animation_interpolator_0.xml"
     },
     {
+        "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_logo_round.png.flat",
+        "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\src\\main\\res\\mipmap-mdpi\\logo_round.png"
+    },
+    {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png"
     },
@@ -1040,6 +1068,10 @@
         "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\src\\main\\res\\drawable\\tozeur.png"
     },
     {
+        "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_logo_foreground.png.flat",
+        "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\src\\main\\res\\mipmap-hdpi\\logo_foreground.png"
+    },
+    {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
@@ -1058,6 +1090,10 @@
     {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
         "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_logo_round.png.flat",
+        "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\src\\main\\res\\mipmap-xxhdpi\\logo_round.png"
     },
     {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\drawable_darezzahra2.webp.flat",
@@ -1304,6 +1340,10 @@
         "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
+        "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_logo_foreground.png.flat",
+        "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\src\\main\\res\\mipmap-xxhdpi\\logo_foreground.png"
+    },
+    {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_list__hotel__ariana__main_.xml.flat",
         "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\src\\main\\res\\layout\\activity_list__hotel__ariana__main_.xml"
     },
@@ -1318,6 +1358,10 @@
     {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\drawable-xxxhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_logo_foreground.png.flat",
+        "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\src\\main\\res\\mipmap-xhdpi\\logo_foreground.png"
     },
     {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
@@ -1520,6 +1564,10 @@
         "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\src\\main\\res\\layout\\activity_list_item.xml"
     },
     {
+        "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_logo.png.flat",
+        "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\src\\main\\res\\mipmap-xxhdpi\\logo.png"
+    },
+    {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_seek_thumb.xml.flat",
         "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\color\\abc_tint_seek_thumb.xml"
     },
@@ -1530,6 +1578,10 @@
     {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_tooltip.xml.flat",
         "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\layout\\abc_tooltip.xml"
+    },
+    {
+        "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_logo_background.png.flat",
+        "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\logo_background.png"
     },
     {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
@@ -1550,6 +1602,10 @@
     {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_logo.png.flat",
+        "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\src\\main\\res\\mipmap-mdpi\\logo.png"
     },
     {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
@@ -1646,6 +1702,10 @@
     {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_logo_background.png.flat",
+        "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\logo_background.png"
     },
     {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_btn_colored_borderless_text_material.xml.flat",
@@ -1772,6 +1832,10 @@
         "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\anim\\btn_checkbox_to_checked_icon_null_animation.xml"
     },
     {
+        "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_logo_background.xml.flat",
+        "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\logo_background.xml"
+    },
+    {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_mode_bar.xml.flat",
         "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\layout\\abc_action_mode_bar.xml"
     },
@@ -1876,6 +1940,10 @@
         "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
+        "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_logo_background.png.flat",
+        "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\logo_background.png"
+    },
+    {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_switch_track.xml.flat",
         "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\color\\abc_tint_switch_track.xml"
     },
@@ -1920,6 +1988,10 @@
         "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\color\\abc_hint_foreground_material_dark.xml"
     },
     {
+        "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_logo_foreground.png.flat",
+        "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\src\\main\\res\\mipmap-mdpi\\logo_foreground.png"
+    },
+    {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\drawable_novotel6.webp.flat",
         "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\src\\main\\res\\drawable\\novotel6.webp"
     },
@@ -1956,6 +2028,10 @@
         "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
+        "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_logo.png.flat",
+        "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\src\\main\\res\\mipmap-xxxhdpi\\logo.png"
+    },
+    {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_maps_samron2.xml.flat",
         "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\src\\main\\res\\layout\\activity_maps_samron2.xml"
     },
@@ -1978,6 +2054,10 @@
     {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\anim_btn_radio_to_on_mtrl_dot_group_animation.xml.flat",
         "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\anim\\btn_radio_to_on_mtrl_dot_group_animation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_logo_round.png.flat",
+        "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\src\\main\\res\\mipmap-hdpi\\logo_round.png"
     },
     {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
@@ -2084,6 +2164,10 @@
         "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
+        "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logo_background.png.flat",
+        "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\logo_background.png"
+    },
+    {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tunis.png.flat",
         "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\src\\main\\res\\drawable\\tunis.png"
     },
@@ -2144,6 +2228,10 @@
         "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\src\\main\\res\\drawable\\novotel2webp.webp"
     },
     {
+        "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_logo.png.flat",
+        "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\src\\main\\res\\mipmap-xhdpi\\logo.png"
+    },
+    {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
@@ -2188,6 +2276,10 @@
         "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
+        "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_logo_foreground.png.flat",
+        "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\src\\main\\res\\mipmap-xxxhdpi\\logo_foreground.png"
+    },
+    {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\anim_btn_radio_to_off_mtrl_dot_group_animation.xml.flat",
         "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\anim\\btn_radio_to_off_mtrl_dot_group_animation.xml"
     },
@@ -2218,6 +2310,10 @@
     {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
         "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_logo.png.flat",
+        "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\src\\main\\res\\mipmap-hdpi\\logo.png"
     },
     {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bizerte.png.flat",

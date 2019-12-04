@@ -162,7 +162,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Ma
 	android:roundIcon
 		ADDED from C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:20:9-54
 	android:icon
-		ADDED from C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:18:9-43
+		ADDED from C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:18:9-47
 	android:allowBackup
 		ADDED from C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:17:9-35
 	android:theme

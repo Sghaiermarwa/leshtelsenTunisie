@@ -53,8 +53,8 @@
 32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 32-->[androidx.core:core:1.1.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\478b79604eaaf934858ce3739dce1708\core-1.1.0\AndroidManifest.xml:24:18-86
 33        android:debuggable="true"
-34        android:icon="@mipmap/ic_launcher"
-34-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:18:9-43
+34        android:icon="@mipmap/logo_foreground"
+34-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:18:9-47
 35        android:label="@string/app_name"
 35-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:19:9-41
 36        android:roundIcon="@mipmap/ic_launcher_round"

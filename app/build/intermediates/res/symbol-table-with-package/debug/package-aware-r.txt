@@ -761,6 +761,7 @@ drawable lamanouba
 drawable laoco5
 drawable lekef
 drawable location
+drawable logo_background
 drawable mahdia
 drawable medenine
 drawable monastir
@@ -1099,6 +1100,9 @@ layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap logo
+mipmap logo_foreground
+mipmap logo_round
 string Ariana
 string Ariana_Description
 string BenArous
