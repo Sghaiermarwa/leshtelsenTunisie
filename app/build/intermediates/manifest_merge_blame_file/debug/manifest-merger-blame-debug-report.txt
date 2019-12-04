@@ -15,53 +15,55 @@
 13         Google Maps Android API v2, but you must specify either coarse or fine
 14         location permissions for the 'MyLocation' functionality.
 15    -->
-16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-16-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:10:5-79
-16-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:10:22-76
-17
-18    <!-- Include required permissions for Google Maps API to run. -->
-19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-19-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\e2cf6749e60f1b8edb6e26cea47874c7\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:5-79
-19-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\e2cf6749e60f1b8edb6e26cea47874c7\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:22-76
-20    <uses-permission android:name="android.permission.INTERNET" />
-20-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\e2cf6749e60f1b8edb6e26cea47874c7\jetified-play-services-maps-16.1.0\AndroidManifest.xml:24:5-67
-20-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\e2cf6749e60f1b8edb6e26cea47874c7\jetified-play-services-maps-16.1.0\AndroidManifest.xml:24:22-64
+16
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:11:5-67
+17-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:11:22-64
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:12:5-79
+18-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:12:22-76
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:13:5-79
+19-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:13:22-76
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:14:5-80
+20-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:14:22-78
 21
 22    <uses-feature
-22-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\e2cf6749e60f1b8edb6e26cea47874c7\jetified-play-services-maps-16.1.0\AndroidManifest.xml:26:5-28:35
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\f6b8646714b47b7db438133a675fc810\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
 23        android:glEsVersion="0x00020000"
-23-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\e2cf6749e60f1b8edb6e26cea47874c7\jetified-play-services-maps-16.1.0\AndroidManifest.xml:27:9-41
+23-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\f6b8646714b47b7db438133a675fc810\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
 24        android:required="true" />
-24-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\e2cf6749e60f1b8edb6e26cea47874c7\jetified-play-services-maps-16.1.0\AndroidManifest.xml:28:9-32
+24-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\f6b8646714b47b7db438133a675fc810\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
 25
-26    <uses-permission android:name="android.permission.WAKE_LOCK" />
-26-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\d57e568183bfd8808569896610b74d59\jetified-firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:24:5-68
-26-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\d57e568183bfd8808569896610b74d59\jetified-firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:24:22-65
-27    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-27-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\8cf7e2ffb87e2d4db3d9a9c790c98d80\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:26:5-110
-27-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\8cf7e2ffb87e2d4db3d9a9c790c98d80\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:26:22-107
-28    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-28-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\880d8e3597fb0e1a2deb2a14234f6885\jetified-firebase-iid-17.0.3\AndroidManifest.xml:26:5-82
-28-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\880d8e3597fb0e1a2deb2a14234f6885\jetified-firebase-iid-17.0.3\AndroidManifest.xml:26:22-79
+26    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+26-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\b530dbbccd8fd7addcf074c43fb302c3\play-services-measurement-api-17.2.1\AndroidManifest.xml:24:5-68
+26-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\b530dbbccd8fd7addcf074c43fb302c3\play-services-measurement-api-17.2.1\AndroidManifest.xml:24:22-65
+27    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+27-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\ae29ac7f606802dee4445c6cbfa93208\firebase-iid-19.0.0\AndroidManifest.xml:26:5-82
+27-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\ae29ac7f606802dee4445c6cbfa93208\firebase-iid-19.0.0\AndroidManifest.xml:26:22-79
+28    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+28-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\13c226e437214fdcd738371431d4652d\play-services-measurement-17.2.1\AndroidManifest.xml:26:5-110
+28-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\13c226e437214fdcd738371431d4652d\play-services-measurement-17.2.1\AndroidManifest.xml:26:22-107
 29
 30    <application
-30-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:12:5-66:19
+30-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:16:5-70:19
 31        android:allowBackup="true"
-31-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:13:9-35
+31-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:17:9-35
 32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-32-->[androidx.core:core:1.0.1] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\668f92656ea417a5dbfea6d82592adcd\core-1.0.1\AndroidManifest.xml:22:18-86
+32-->[androidx.core:core:1.1.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\478b79604eaaf934858ce3739dce1708\core-1.1.0\AndroidManifest.xml:24:18-86
 33        android:debuggable="true"
 34        android:icon="@mipmap/ic_launcher"
-34-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:14:9-43
+34-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:18:9-43
 35        android:label="@string/app_name"
-35-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:15:9-41
+35-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:19:9-41
 36        android:roundIcon="@mipmap/ic_launcher_round"
-36-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:16:9-54
+36-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:20:9-54
 37        android:supportsRtl="true"
-37-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:17:9-35
+37-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:21:9-35
 38        android:testOnly="true"
 39        android:theme="@style/AppTheme" >
-39-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:18:9-40
+39-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:22:9-40
 40
 41        <!--
 42             The API key for Google Maps-based APIs is defined as a string resource.
@@ -72,244 +74,228 @@
 47             You can define the keys for the debug and release targets in src/debug/ and src/release/.
 48        -->
 49        <meta-data
-49-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:28:9-30:55
+49-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:32:9-34:55
 50            android:name="com.google.android.geo.API_KEY"
-50-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:29:13-58
+50-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:33:13-58
 51            android:value="@string/google_maps_key" />
-51-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:30:13-52
+51-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:34:13-52
 52
 53        <activity
-53-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:32:9-34:79
+53-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:36:9-38:79
 54            android:name="com.example.leshtelsentunisie.MapsActivityDarezzahra"
-54-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:33:13-51
+54-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:37:13-51
 55            android:label="@string/title_activity_maps_darezzahra" />
-55-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:34:13-67
+55-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:38:13-67
 56        <activity android:name="com.example.leshtelsentunisie.Darezzahra_MainActivity" />
-56-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:35:9-61
-56-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:35:19-58
+56-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:39:9-61
+56-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:39:19-58
 57        <activity
-57-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:36:9-38:69
+57-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:40:9-42:69
 58            android:name="com.example.leshtelsentunisie.MapsActivityDarsaliam"
-58-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:37:13-50
+58-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:41:13-50
 59            android:label="@string/title_activity_maps_darsaliam" />
-59-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:38:13-66
+59-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:42:13-66
 60        <activity android:name="com.example.leshtelsentunisie.Darsalima_MainActivity" />
-60-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:39:9-60
-60-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:39:19-57
+60-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:43:9-60
+60-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:43:19-57
 61        <activity android:name="com.example.leshtelsentunisie.List_Hotel_Benarous_Main_Activity" />
-61-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:40:9-71
-61-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:40:19-68
+61-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:44:9-71
+61-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:44:19-68
 62        <activity
-62-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:41:9-43:68
+62-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:45:9-47:68
 63            android:name="com.example.leshtelsentunisie.MapsActivityAlrawabi"
-63-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:42:13-49
+63-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:46:13-49
 64            android:label="@string/title_activity_maps_alrawabi" />
-64-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:43:13-65
+64-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:47:13-65
 65        <activity android:name="com.example.leshtelsentunisie.Alrawabi_MainActivity" />
-65-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:44:9-59
-65-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:44:19-56
+65-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:48:9-59
+65-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:48:19-56
 66        <activity
-66-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:45:9-47:66
+66-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:49:9-51:66
 67            android:name="com.example.leshtelsentunisie.MapsActivityRamsam"
-67-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:46:13-47
+67-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:50:13-47
 68            android:label="@string/title_activity_maps_ramsam" />
-68-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:47:13-63
+68-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:51:13-63
 69        <activity android:name="com.example.leshtelsentunisie.Ramsam_MainActivity" />
-69-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:48:9-57
-69-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:48:19-54
+69-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:52:9-57
+69-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:52:19-54
 70        <activity android:name="com.example.leshtelsentunisie.List_Hotel_Beja_Main_Activity" />
-70-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:49:9-67
-70-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:49:19-64
+70-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:53:9-67
+70-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:53:19-64
 71        <activity android:name="com.example.leshtelsentunisie.Samron_MainActivity" />
-71-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:50:9-57
-71-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:50:19-54
+71-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:54:9-57
+71-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:54:19-54
 72        <activity
-72-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:51:9-53:69
+72-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:55:9-57:69
 73            android:name="com.example.leshtelsentunisie.MapsActivityPenthouse"
-73-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:52:13-50
+73-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:56:13-50
 74            android:label="@string/title_activity_maps_penthouse" />
-74-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:53:13-66
+74-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:57:13-66
 75        <activity android:name="com.example.leshtelsentunisie.Penthouse_MainActivity" />
-75-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:54:9-60
-75-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:54:19-57
+75-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:58:9-60
+75-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:58:19-57
 76        <activity
-76-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:55:9-57:66
+76-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:59:9-61:66
 77            android:name="com.example.leshtelsentunisie.MapsActivitySamron"
-77-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:56:13-47
+77-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:60:13-47
 78            android:label="@string/title_activity_maps_samron" />
-78-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:57:13-63
+78-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:61:13-63
 79        <activity android:name="com.example.leshtelsentunisie.List_Hotel_Ariana_Main_Activity" />
-79-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:58:9-69
-79-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:58:19-66
+79-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:62:9-69
+79-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:62:19-66
 80        <activity android:name="com.example.leshtelsentunisie.MainActivity" >
-80-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:59:9-65:20
-80-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:59:19-47
+80-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:63:9-69:20
+80-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:63:19-47
 81            <intent-filter>
-81-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:60:13-64:29
+81-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:64:13-68:29
 82                <action android:name="android.intent.action.MAIN" />
-82-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:61:17-69
-82-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:61:25-66
+82-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:65:17-69
+82-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:65:25-66
 83
 84                <category android:name="android.intent.category.LAUNCHER" />
-84-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:63:17-77
-84-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:63:27-74
+84-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:67:17-77
+84-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:67:27-74
 85            </intent-filter>
 86        </activity>
 87        <!-- Needs to be explicitly declared on P+ -->
 88        <uses-library
-88-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\e2cf6749e60f1b8edb6e26cea47874c7\jetified-play-services-maps-16.1.0\AndroidManifest.xml:33:9-35:40
+88-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\f6b8646714b47b7db438133a675fc810\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
 89            android:name="org.apache.http.legacy"
-89-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\e2cf6749e60f1b8edb6e26cea47874c7\jetified-play-services-maps-16.1.0\AndroidManifest.xml:34:13-50
+89-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\f6b8646714b47b7db438133a675fc810\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
 90            android:required="false" />
-90-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\e2cf6749e60f1b8edb6e26cea47874c7\jetified-play-services-maps-16.1.0\AndroidManifest.xml:35:13-37
+90-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\f6b8646714b47b7db438133a675fc810\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
 91
 92        <activity
-92-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\d4c839d4358b25cdf6be25d8cc6db924\jetified-firebase-auth-16.0.5\AndroidManifest.xml:24:9-31:50
+92-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\7c78a11c6b4a4456334831db0797030d\firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
 93            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
-93-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\d4c839d4358b25cdf6be25d8cc6db924\jetified-firebase-auth-16.0.5\AndroidManifest.xml:25:13-85
+93-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\7c78a11c6b4a4456334831db0797030d\firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
 94            android:excludeFromRecents="true"
-94-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\d4c839d4358b25cdf6be25d8cc6db924\jetified-firebase-auth-16.0.5\AndroidManifest.xml:26:13-46
+94-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\7c78a11c6b4a4456334831db0797030d\firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
 95            android:exported="true"
-95-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\d4c839d4358b25cdf6be25d8cc6db924\jetified-firebase-auth-16.0.5\AndroidManifest.xml:27:13-36
+95-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\7c78a11c6b4a4456334831db0797030d\firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
 96            android:launchMode="singleTask"
-96-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\d4c839d4358b25cdf6be25d8cc6db924\jetified-firebase-auth-16.0.5\AndroidManifest.xml:28:13-44
+96-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\7c78a11c6b4a4456334831db0797030d\firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
 97            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
-97-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\d4c839d4358b25cdf6be25d8cc6db924\jetified-firebase-auth-16.0.5\AndroidManifest.xml:29:13-102
+97-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\7c78a11c6b4a4456334831db0797030d\firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
 98            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-98-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\d4c839d4358b25cdf6be25d8cc6db924\jetified-firebase-auth-16.0.5\AndroidManifest.xml:30:13-72
+98-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\7c78a11c6b4a4456334831db0797030d\firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
 99
 100        <service
-100-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\d4c839d4358b25cdf6be25d8cc6db924\jetified-firebase-auth-16.0.5\AndroidManifest.xml:33:9-39:19
+100-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\7c78a11c6b4a4456334831db0797030d\firebase-auth-19.2.0\AndroidManifest.xml:33:9-39:19
 101            android:name="com.google.firebase.components.ComponentDiscoveryService"
-101-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\d4c839d4358b25cdf6be25d8cc6db924\jetified-firebase-auth-16.0.5\AndroidManifest.xml:34:13-84
-102            android:exported="false" >
-102-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\d4c839d4358b25cdf6be25d8cc6db924\jetified-firebase-auth-16.0.5\AndroidManifest.xml:35:13-37
-103            <meta-data
-103-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\d4c839d4358b25cdf6be25d8cc6db924\jetified-firebase-auth-16.0.5\AndroidManifest.xml:36:13-38:85
-104                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-104-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\d4c839d4358b25cdf6be25d8cc6db924\jetified-firebase-auth-16.0.5\AndroidManifest.xml:37:17-109
-105                android:value="com.google.firebase.components.ComponentRegistrar" />
-105-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\d4c839d4358b25cdf6be25d8cc6db924\jetified-firebase-auth-16.0.5\AndroidManifest.xml:38:17-82
-106            <meta-data
-106-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\d57e568183bfd8808569896610b74d59\jetified-firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:28:13-30:85
-107                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-107-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\d57e568183bfd8808569896610b74d59\jetified-firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:29:17-139
-108                android:value="com.google.firebase.components.ComponentRegistrar" />
-108-->[com.google.firebase:firebase-measurement-connector-impl:17.0.2] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\d57e568183bfd8808569896610b74d59\jetified-firebase-measurement-connector-impl-17.0.2\AndroidManifest.xml:30:17-82
-109            <meta-data
-109-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\880d8e3597fb0e1a2deb2a14234f6885\jetified-firebase-iid-17.0.3\AndroidManifest.xml:32:13-34:85
-110                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-110-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\880d8e3597fb0e1a2deb2a14234f6885\jetified-firebase-iid-17.0.3\AndroidManifest.xml:33:17-96
-111                android:value="com.google.firebase.components.ComponentRegistrar" />
-111-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\880d8e3597fb0e1a2deb2a14234f6885\jetified-firebase-iid-17.0.3\AndroidManifest.xml:34:17-82
-112        </service>
-113
-114        <receiver
-114-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\8cf7e2ffb87e2d4db3d9a9c790c98d80\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:29:9-33:20
-115            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-115-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\8cf7e2ffb87e2d4db3d9a9c790c98d80\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:30:13-85
-116            android:enabled="true"
-116-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\8cf7e2ffb87e2d4db3d9a9c790c98d80\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:31:13-35
-117            android:exported="false" >
-117-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\8cf7e2ffb87e2d4db3d9a9c790c98d80\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:32:13-37
-118        </receiver>
-119        <receiver
-119-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\8cf7e2ffb87e2d4db3d9a9c790c98d80\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:34:9-42:20
-120            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
-120-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\8cf7e2ffb87e2d4db3d9a9c790c98d80\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:35:13-100
-121            android:enabled="true"
-121-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\8cf7e2ffb87e2d4db3d9a9c790c98d80\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:36:13-35
-122            android:exported="true"
-122-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\8cf7e2ffb87e2d4db3d9a9c790c98d80\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:37:13-36
-123            android:permission="android.permission.INSTALL_PACKAGES" >
-123-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\8cf7e2ffb87e2d4db3d9a9c790c98d80\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:38:13-69
-124            <intent-filter>
-124-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\8cf7e2ffb87e2d4db3d9a9c790c98d80\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:39:13-41:29
-125                <action android:name="com.android.vending.INSTALL_REFERRER" />
-125-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\8cf7e2ffb87e2d4db3d9a9c790c98d80\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:40:17-79
-125-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\8cf7e2ffb87e2d4db3d9a9c790c98d80\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:40:25-76
-126            </intent-filter>
-127        </receiver>
+101-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\7c78a11c6b4a4456334831db0797030d\firebase-auth-19.2.0\AndroidManifest.xml:34:13-84
+102            android:directBootAware="true"
+102-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\8367683c3a2b877a033559a1ea54448e\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+103            android:exported="false" >
+103-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\7c78a11c6b4a4456334831db0797030d\firebase-auth-19.2.0\AndroidManifest.xml:35:13-37
+104            <meta-data
+104-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\7c78a11c6b4a4456334831db0797030d\firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
+105                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+105-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\7c78a11c6b4a4456334831db0797030d\firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\7c78a11c6b4a4456334831db0797030d\firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
+107            <meta-data
+107-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\b530dbbccd8fd7addcf074c43fb302c3\play-services-measurement-api-17.2.1\AndroidManifest.xml:30:13-32:85
+108                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+108-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\b530dbbccd8fd7addcf074c43fb302c3\play-services-measurement-api-17.2.1\AndroidManifest.xml:31:17-139
+109                android:value="com.google.firebase.components.ComponentRegistrar" />
+109-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\b530dbbccd8fd7addcf074c43fb302c3\play-services-measurement-api-17.2.1\AndroidManifest.xml:32:17-82
+110            <meta-data
+110-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\ae29ac7f606802dee4445c6cbfa93208\firebase-iid-19.0.0\AndroidManifest.xml:32:13-34:85
+111                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+111-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\ae29ac7f606802dee4445c6cbfa93208\firebase-iid-19.0.0\AndroidManifest.xml:33:17-96
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\ae29ac7f606802dee4445c6cbfa93208\firebase-iid-19.0.0\AndroidManifest.xml:34:17-82
+113        </service>
+114
+115        <receiver
+115-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\ae29ac7f606802dee4445c6cbfa93208\firebase-iid-19.0.0\AndroidManifest.xml:37:9-44:20
+116            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+116-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\ae29ac7f606802dee4445c6cbfa93208\firebase-iid-19.0.0\AndroidManifest.xml:38:13-78
+117            android:exported="true"
+117-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\ae29ac7f606802dee4445c6cbfa93208\firebase-iid-19.0.0\AndroidManifest.xml:39:13-36
+118            android:permission="com.google.android.c2dm.permission.SEND" >
+118-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\ae29ac7f606802dee4445c6cbfa93208\firebase-iid-19.0.0\AndroidManifest.xml:40:13-73
+119            <intent-filter>
+119-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\ae29ac7f606802dee4445c6cbfa93208\firebase-iid-19.0.0\AndroidManifest.xml:41:13-43:29
+120                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+120-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\ae29ac7f606802dee4445c6cbfa93208\firebase-iid-19.0.0\AndroidManifest.xml:42:17-81
+120-->[com.google.firebase:firebase-iid:19.0.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\ae29ac7f606802dee4445c6cbfa93208\firebase-iid-19.0.0\AndroidManifest.xml:42:25-78
+121            </intent-filter>
+122        </receiver>
+123
+124        <activity
+124-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\5361484794665ae726e7094cda0f326e\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+125            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+125-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\5361484794665ae726e7094cda0f326e\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+126            android:exported="false"
+126-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\5361484794665ae726e7094cda0f326e\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+127            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+127-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\5361484794665ae726e7094cda0f326e\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
 128
-129        <service
-129-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\8cf7e2ffb87e2d4db3d9a9c790c98d80\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:44:9-47:40
-130            android:name="com.google.android.gms.measurement.AppMeasurementService"
-130-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\8cf7e2ffb87e2d4db3d9a9c790c98d80\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:45:13-84
-131            android:enabled="true"
-131-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\8cf7e2ffb87e2d4db3d9a9c790c98d80\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:46:13-35
-132            android:exported="false" />
-132-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\8cf7e2ffb87e2d4db3d9a9c790c98d80\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:47:13-37
-133        <service
-133-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\8cf7e2ffb87e2d4db3d9a9c790c98d80\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:48:9-52:72
-134            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-134-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\8cf7e2ffb87e2d4db3d9a9c790c98d80\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:49:13-87
-135            android:enabled="true"
-135-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\8cf7e2ffb87e2d4db3d9a9c790c98d80\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:50:13-35
-136            android:exported="false"
-136-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\8cf7e2ffb87e2d4db3d9a9c790c98d80\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:51:13-37
-137            android:permission="android.permission.BIND_JOB_SERVICE" />
-137-->[com.google.firebase:firebase-analytics:16.0.4] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\8cf7e2ffb87e2d4db3d9a9c790c98d80\jetified-firebase-analytics-16.0.4\AndroidManifest.xml:52:13-69
-138
-139        <receiver
-139-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\880d8e3597fb0e1a2deb2a14234f6885\jetified-firebase-iid-17.0.3\AndroidManifest.xml:37:9-44:20
-140            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-140-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\880d8e3597fb0e1a2deb2a14234f6885\jetified-firebase-iid-17.0.3\AndroidManifest.xml:38:13-78
-141            android:exported="true"
-141-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\880d8e3597fb0e1a2deb2a14234f6885\jetified-firebase-iid-17.0.3\AndroidManifest.xml:39:13-36
-142            android:permission="com.google.android.c2dm.permission.SEND" >
-142-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\880d8e3597fb0e1a2deb2a14234f6885\jetified-firebase-iid-17.0.3\AndroidManifest.xml:40:13-73
-143            <intent-filter>
-143-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\880d8e3597fb0e1a2deb2a14234f6885\jetified-firebase-iid-17.0.3\AndroidManifest.xml:41:13-43:29
-144                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-144-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\880d8e3597fb0e1a2deb2a14234f6885\jetified-firebase-iid-17.0.3\AndroidManifest.xml:42:17-81
-144-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\880d8e3597fb0e1a2deb2a14234f6885\jetified-firebase-iid-17.0.3\AndroidManifest.xml:42:25-78
-145            </intent-filter>
-146        </receiver>
-147        <!--
-148             FirebaseInstanceIdService performs security checks at runtime,
-149             no need for explicit permissions despite exported="true"
-150        -->
-151        <service
-151-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\880d8e3597fb0e1a2deb2a14234f6885\jetified-firebase-iid-17.0.3\AndroidManifest.xml:50:9-56:19
-152            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
-152-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\880d8e3597fb0e1a2deb2a14234f6885\jetified-firebase-iid-17.0.3\AndroidManifest.xml:51:13-77
-153            android:exported="true" >
-153-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\880d8e3597fb0e1a2deb2a14234f6885\jetified-firebase-iid-17.0.3\AndroidManifest.xml:52:13-36
-154            <intent-filter android:priority="-500" >
-154-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\880d8e3597fb0e1a2deb2a14234f6885\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:13-55:29
-154-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\880d8e3597fb0e1a2deb2a14234f6885\jetified-firebase-iid-17.0.3\AndroidManifest.xml:53:28-51
-155                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-155-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\880d8e3597fb0e1a2deb2a14234f6885\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:17-80
-155-->[com.google.firebase:firebase-iid:17.0.3] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\880d8e3597fb0e1a2deb2a14234f6885\jetified-firebase-iid-17.0.3\AndroidManifest.xml:54:25-77
-156            </intent-filter>
-157        </service>
-158
-159        <activity
-159-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\f28197231daa0c852f76f9abfc0cb127\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
-160            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-160-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\f28197231daa0c852f76f9abfc0cb127\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
-161            android:exported="false"
-161-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\f28197231daa0c852f76f9abfc0cb127\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
-162            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-162-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\f28197231daa0c852f76f9abfc0cb127\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
-163
-164        <provider
-164-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\ed3d309db8c74fca65ca9bff9fad17af\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
-165            android:name="com.google.firebase.provider.FirebaseInitProvider"
-165-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\ed3d309db8c74fca65ca9bff9fad17af\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
-166            android:authorities="com.example.leshtelsentunisie.firebaseinitprovider"
-166-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\ed3d309db8c74fca65ca9bff9fad17af\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
-167            android:exported="false"
-167-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\ed3d309db8c74fca65ca9bff9fad17af\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
-168            android:initOrder="100" />
-168-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\ed3d309db8c74fca65ca9bff9fad17af\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
-169
-170        <meta-data
-170-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\9de078e813aa985d8def6571c68a13d4\jetified-play-services-basement-16.1.0\AndroidManifest.xml:23:9-25:69
-171            android:name="com.google.android.gms.version"
-171-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\9de078e813aa985d8def6571c68a13d4\jetified-play-services-basement-16.1.0\AndroidManifest.xml:24:13-58
-172            android:value="@integer/google_play_services_version" />
-172-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\9de078e813aa985d8def6571c68a13d4\jetified-play-services-basement-16.1.0\AndroidManifest.xml:25:13-66
-173    </application>
-174
-175</manifest>
+129        <provider
+129-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\8367683c3a2b877a033559a1ea54448e\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+130            android:name="com.google.firebase.provider.FirebaseInitProvider"
+130-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\8367683c3a2b877a033559a1ea54448e\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+131            android:authorities="com.example.leshtelsentunisie.firebaseinitprovider"
+131-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\8367683c3a2b877a033559a1ea54448e\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+132            android:exported="false"
+132-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\8367683c3a2b877a033559a1ea54448e\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+133            android:initOrder="100" />
+133-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\8367683c3a2b877a033559a1ea54448e\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+134
+135        <receiver
+135-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\13c226e437214fdcd738371431d4652d\play-services-measurement-17.2.1\AndroidManifest.xml:29:9-33:20
+136            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+136-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\13c226e437214fdcd738371431d4652d\play-services-measurement-17.2.1\AndroidManifest.xml:30:13-85
+137            android:enabled="true"
+137-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\13c226e437214fdcd738371431d4652d\play-services-measurement-17.2.1\AndroidManifest.xml:31:13-35
+138            android:exported="false" >
+138-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\13c226e437214fdcd738371431d4652d\play-services-measurement-17.2.1\AndroidManifest.xml:32:13-37
+139        </receiver>
+140        <receiver
+140-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\13c226e437214fdcd738371431d4652d\play-services-measurement-17.2.1\AndroidManifest.xml:34:9-42:20
+141            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+141-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\13c226e437214fdcd738371431d4652d\play-services-measurement-17.2.1\AndroidManifest.xml:35:13-100
+142            android:enabled="true"
+142-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\13c226e437214fdcd738371431d4652d\play-services-measurement-17.2.1\AndroidManifest.xml:36:13-35
+143            android:exported="true"
+143-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\13c226e437214fdcd738371431d4652d\play-services-measurement-17.2.1\AndroidManifest.xml:37:13-36
+144            android:permission="android.permission.INSTALL_PACKAGES" >
+144-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\13c226e437214fdcd738371431d4652d\play-services-measurement-17.2.1\AndroidManifest.xml:38:13-69
+145            <intent-filter>
+145-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\13c226e437214fdcd738371431d4652d\play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
+146                <action android:name="com.android.vending.INSTALL_REFERRER" />
+146-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\13c226e437214fdcd738371431d4652d\play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
+146-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\13c226e437214fdcd738371431d4652d\play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
+147            </intent-filter>
+148        </receiver>
+149
+150        <service
+150-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\13c226e437214fdcd738371431d4652d\play-services-measurement-17.2.1\AndroidManifest.xml:44:9-47:40
+151            android:name="com.google.android.gms.measurement.AppMeasurementService"
+151-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\13c226e437214fdcd738371431d4652d\play-services-measurement-17.2.1\AndroidManifest.xml:45:13-84
+152            android:enabled="true"
+152-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\13c226e437214fdcd738371431d4652d\play-services-measurement-17.2.1\AndroidManifest.xml:46:13-35
+153            android:exported="false" />
+153-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\13c226e437214fdcd738371431d4652d\play-services-measurement-17.2.1\AndroidManifest.xml:47:13-37
+154        <service
+154-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\13c226e437214fdcd738371431d4652d\play-services-measurement-17.2.1\AndroidManifest.xml:48:9-52:72
+155            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+155-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\13c226e437214fdcd738371431d4652d\play-services-measurement-17.2.1\AndroidManifest.xml:49:13-87
+156            android:enabled="true"
+156-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\13c226e437214fdcd738371431d4652d\play-services-measurement-17.2.1\AndroidManifest.xml:50:13-35
+157            android:exported="false"
+157-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\13c226e437214fdcd738371431d4652d\play-services-measurement-17.2.1\AndroidManifest.xml:51:13-37
+158            android:permission="android.permission.BIND_JOB_SERVICE" />
+158-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\13c226e437214fdcd738371431d4652d\play-services-measurement-17.2.1\AndroidManifest.xml:52:13-69
+159
+160        <meta-data
+160-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\a6142d0617313b4233212b3d459d2d59\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+161            android:name="com.google.android.gms.version"
+161-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\a6142d0617313b4233212b3d459d2d59\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+162            android:value="@integer/google_play_services_version" />
+162-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\a6142d0617313b4233212b3d459d2d59\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+163    </application>
+164
+165</manifest>
