@@ -880,7 +880,9 @@ id beginning
 id blocking
 id bottom
 id buttonPanel
+id buttonSignin
 id buttonSignin2
+id buttonSignup
 id buttonSignup2
 id center_vertical
 id chains
@@ -900,7 +902,9 @@ id dialog_button
 id dimensions
 id direct
 id disableHome
+id editTextEmail
 id editTextEmail2
+id editTextPassword
 id editTextPassword2
 id edit_query
 id end
@@ -1229,7 +1233,9 @@ string image_description
 string listhbeja
 string listhbenarous
 string localisation
+string messageerreur
 string messagesignup
+string messagesucces
 string ok
 string parking
 string password

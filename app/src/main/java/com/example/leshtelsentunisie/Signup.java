@@ -3,6 +3,7 @@ package com.example.leshtelsentunisie;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -21,7 +22,7 @@ EditText password ;
 Button signup;
 Button signin;
 String message;
-    FirebaseAuth  firebaseAuth;
+FirebaseAuth  firebaseAuth;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,7 +41,8 @@ String message;
             @Override
             public void onClick(View view) {
                 //création s'un nouveau utulisateur dans la fire base
-                firebaseAuth.createUserWithEmailAndPassword(email.getText().toString(),password.getText().toString()).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                firebaseAuth.createUserWithEmailAndPassword(email.getText().toString(),password.getText().toString())
+                        .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         //si la creation d'un nouveau utilisateur est réussite alors un toast etre affiché
@@ -53,6 +55,14 @@ String message;
                     }
 
                 });
+            }
+        });
+        //le click sur le boutton Singin entraine l'ouverture d'une nouvelle activity (l'interface de signin)
+        signin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent newActivity = new Intent(Signup.this, SignIn.class);
+                startActivity(newActivity);
             }
         });
 

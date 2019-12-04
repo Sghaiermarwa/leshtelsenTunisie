@@ -4,6 +4,9 @@
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="messagesignup">enregistrement réussite</string>
+    <string name="messageerreur">Verifier Votre Email et votre mot de pass</string>
+    <string name="messagesucces">Bin Venu dans notre espace</string>
+
 
     <string name="app_name">Les hôtels en tunisie</string>
     <string name="image_description">Image d\'item</string>
