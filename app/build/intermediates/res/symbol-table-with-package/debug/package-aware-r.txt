@@ -880,6 +880,8 @@ id beginning
 id blocking
 id bottom
 id buttonPanel
+id buttonSignin2
+id buttonSignup2
 id center_vertical
 id chains
 id checkbox
@@ -898,6 +900,8 @@ id dialog_button
 id dimensions
 id direct
 id disableHome
+id editTextEmail2
+id editTextPassword2
 id edit_query
 id end
 id expand_activities_button
@@ -1087,6 +1091,8 @@ layout activity_maps_samron2
 layout activity_penthouse__main
 layout activity_ramsam__main
 layout activity_samron__main
+layout activity_sign_in
+layout activity_signup
 layout custom_dialog
 layout notification_action
 layout notification_action_tombstone
@@ -1211,6 +1217,7 @@ string darsalima_Description
 string darsalima_Text
 string darsalima_Title
 string default_web_client_id
+string email
 string firebase_database_url
 string gcm_defaultSenderId
 string google_api_key
@@ -1222,8 +1229,10 @@ string image_description
 string listhbeja
 string listhbenarous
 string localisation
+string messagesignup
 string ok
 string parking
+string password
 string penthose_Description
 string penthose_Title
 string penthouse_Text
@@ -1236,7 +1245,8 @@ string samron_Text
 string samron_Title
 string search
 string search_menu_title
-string singin
+string signin
+string signup
 string status_bar_notification_info_overflow
 string tel_alrawabi
 string tel_darezzahra

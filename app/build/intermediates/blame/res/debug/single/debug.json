@@ -1132,6 +1132,10 @@
         "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\layout-v26\\abc_screen_toolbar.xml"
     },
     {
+        "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign_in.xml.flat",
+        "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\src\\main\\res\\layout\\activity_sign_in.xml"
+    },
+    {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\8b7353a4da394401f2770946eabec9bd\\appcompat-1.1.0\\res\\drawable-ldrtl-hdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
     },
@@ -2222,6 +2226,10 @@
     {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
         "source": "C:\\Users\\Marwa\\.gradle\\caches\\transforms-2\\files-2.1\\5361484794665ae726e7094cda0f326e\\play-services-base-17.1.0\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_signup.xml.flat",
+        "source": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\src\\main\\res\\layout\\activity_signup.xml"
     },
     {
         "merged": "C:\\Users\\Marwa\\AndroidStudioProjects\\leshtelsenTunisie\\app\\build\\intermediates\\res\\merged\\debug\\drawable_novotel2webp.webp.flat",
