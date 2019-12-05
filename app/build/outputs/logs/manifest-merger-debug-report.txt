@@ -168,23 +168,23 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Ma
 	android:theme
 		ADDED from C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:20:9-40
 activity#com.example.leshtelsentunisie.Signup
-ADDED from C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:21:9-26:36
+ADDED from C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:21:9-22:24
 	android:name
 		ADDED from C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:21:19-41
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:22:13-26:25
-action#android.intent.action.MAIN
-ADDED from C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:23:13-65
-	android:name
-		ADDED from C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:23:21-62
-category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:25:13-73
-	android:name
-		ADDED from C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:25:23-70
 activity#com.example.leshtelsentunisie.SignIn
-ADDED from C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:27:9-44
+ADDED from C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:23:9-27:36
 	android:name
-		ADDED from C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:27:19-41
+		ADDED from C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:23:19-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:23:43-27:25
+action#android.intent.action.MAIN
+ADDED from C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:24:13-65
+	android:name
+		ADDED from C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:24:21-62
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:26:13-73
+	android:name
+		ADDED from C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:26:23-70
 meta-data#com.google.android.geo.API_KEY
 ADDED from C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:36:9-38:55
 	android:value

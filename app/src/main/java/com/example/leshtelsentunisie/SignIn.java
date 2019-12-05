@@ -4,9 +4,12 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
 
@@ -23,6 +26,7 @@ public class SignIn extends AppCompatActivity {
     String messageerreur;
     String messagesucces;
     FirebaseAuth firebaseAuth;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,6 +35,8 @@ public class SignIn extends AppCompatActivity {
         password =findViewById(R.id.editTextPassword);
         signup=findViewById(R.id.buttonSignup);
         signin=findViewById(R.id.buttonSignin);
+
+
         //récupérztion du message  existe dans le fichier string
         messageerreur=getString(R.string.messageerreur);
         messagesucces=getString(R.string.messagesucces);
@@ -48,16 +54,25 @@ public class SignIn extends AppCompatActivity {
                                 //si l' utilisateur est exicte et l'email et le mot de passe
                                 // sont correctes alors  l'nterface de liste des hotels s'ouvre
                                 if (task.isSuccessful()){
-                                    Toast.makeText(SignIn.this,messagesucces,Toast.LENGTH_SHORT).show();
                                     Intent newActivity = new Intent(SignIn.this, MainActivity.class);
                                     startActivity(newActivity);
+                                    //aussi l'affichage d'un toast indique le succesde connction
+                                    Toast ToastMessage = Toast.makeText(getApplicationContext(),messagesucces,Toast.LENGTH_SHORT);
+                                    View toastView = ToastMessage.getView();
+                                    toastView.setBackgroundColor(R.layout.toast_background_color);
+                                    ToastMessage.show();
                                 }
                                 //si il y'a une erreur alors un Toast etre affiché
-                                else { Toast.makeText(SignIn.this,messageerreur,Toast.LENGTH_SHORT).show();}
+                                else { Toast ToastMessage = Toast.makeText(getApplicationContext(),messageerreur,Toast.LENGTH_SHORT);
+                                    View toastView = ToastMessage.getView();
+                                    toastView.setBackgroundColor(R.layout.toast_background_color);
+                                    ToastMessage.show();
+                                }
 
                             }
 
                         });
+
 
             }
         });
@@ -72,4 +87,6 @@ public class SignIn extends AppCompatActivity {
 
 
     }
+
+
 }

@@ -40,7 +40,7 @@ public class List_Hotel_Ariana_Main_Activity extends AppCompatActivity {
         map = new HashMap<>();
         map.put("titre", getResources().getString(R.string.penthose_Title));
         map.put("description", getResources().getString(R.string.penthose_Description));
-        map.put("img", String.valueOf(R.drawable.novotel));
+        map.put("img", String.valueOf(R.drawable.penthouse));
         listItem.add(map);
 
 

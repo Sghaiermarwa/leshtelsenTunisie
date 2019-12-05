@@ -1,11 +1,17 @@
 <resources>
-    <string name="signin">SignIn</string>
-    <string name="signup">SignUp</string>
+    <string name="signin">Se connecter</string>
+    <string name="signup">S\'inscrire</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
     <string name="messagesignup">enregistrement réussite</string>
-    <string name="messageerreur">Verifier Votre Email et votre mot de pass</string>
-    <string name="messagesucces">Bin Venu dans notre espace</string>
+    <string name="messageerreur">Vérifier Votre Email et votre mot de pass</string>
+    <string name="messagesucces">Bienvenu dans notre espace</string>
+    <string name="chackbox">enregistrer mes données</string>
+
+    <string name="Chackbox">com.example.leshtelsentunisie.mchackebox</string>
+    <string name="Email">com.example.leshtelsentunisie.mEmail</string>
+    <string name="Password">com.example.leshtelsentunisie.mPassword</string>
+
 
 
     <string name="app_name">Les hôtels en tunisie</string>
@@ -18,101 +24,92 @@
     <string name="localisation">Localisation</string>
 
     <string name="Ariana">Ariana</string>
-    <string name="Ariana_Description"></string>
+    <string name="Ariana_Description">(code TN-12)</string>
 
     <string name="Béja">Béja</string>
-    <string name="Béja_Description">Béja</string>
+    <string name="Béja_Description">(code TN-31)</string>
 
-    <string name="BenArous">BenArous</string>
-    <string name="BenArous_Description">Le gouvernorat de Ben Arous, créé le 3 décembre 1983</string>
+    <string name="BenArous">Ben Arous</string>
+    <string name="BenArous_Description">(code TN-13)</string>
 
-    <string name="Bizerte">Bizerte</string>
-    <string name="Bizerte_Description">Bizerte</string>
+    <string name="Bizerte_Description">(code TN-23)</string>
 
     <string name="Gabès">Gabès</string>
-    <string name="Gabès_Description">Gabès</string>
+    <string name="Gabès_Description">(code TN-81)</string>
 
     <string name="Gafsa">Gafsa</string>
-    <string name="Gafsa_Description">Gafsa</string>
+    <string name="Gafsa_Description">(code TN-71)</string>
 
     <string name="Jendouba">Jendouba</string>
-    <string name="Jendouba_Description">Jendouba</string>
+    <string name="Jendouba_Description">(code TN-32)</string>
 
     <string name="Kairouan">Kairouan</string>
-    <string name="Kairouan_Description">Kairouan</string>
+    <string name="Kairouan_Description">(code TN-41)</string>
 
     <string name="Kasserine">Kasserine</string>
-    <string name="Kasserine_Description">Kasserine</string>
+    <string name="Kasserine_Description">(code TN-42)</string>
 
     <string name="Kébili">Kébili</string>
-    <string name="Kébili_Description">Kébili</string>
+    <string name="Kébili_Description">(code TN-73)</string>
 
     <string name="LeKef">Le Kef</string>
-    <string name="LeKef_Description">Le Kef</string>
+    <string name="LeKef_Description">(code TN-33)</string>
 
     <string name="Mahdia">Mahdia</string>
-    <string name="Mahdia_Description">Mahdia</string>
+    <string name="Mahdia_Description">(code TN-53)</string>
 
     <string name="LaManouba">La Manouba</string>
-    <string name="LaManouba_Description">La Manouba</string>
+    <string name="LaManouba_Description">(code TN-14)</string>
 
     <string name="Médenine">Médenine</string>
-    <string name="Médenine_Description">Médenine</string>
+    <string name="Médenine_Description">(code TN-82)</string>
 
     <string name="Monastir">Monastir</string>
-    <string name="Monastir_Description">Monastir</string>
+    <string name="Monastir_Description">(code TN-52)</string>
 
     <string name="Nabeul">Nabeul</string>
-    <string name="Nabeul_Description">Nabeul</string>
+    <string name="Nabeul_Description">(code TN-21)</string>
 
     <string name="Sfax">Sfax</string>
-    <string name="Sfax_Description">Sfax</string>
+    <string name="Sfax_Description">(code TN-61)</string>
 
     <string name="SidiBouzid">Sidi Bouzid</string>
-    <string name="SidiBouzid_Description">Sidi Bouzid</string>
+    <string name="SidiBouzid_Description">(code TN-43)</string>
 
     <string name="Siliana">Siliana</string>
-    <string name="Siliana_Description">Siliana</string>
+    <string name="Siliana_Description">(code TN-34)</string>
 
     <string name="Sousse">Sousse</string>
-    <string name="Sousse_Description">Sousse</string>
+    <string name="Sousse_Description">(code TN-51)</string>
 
     <string name="Tataouine">Tataouine</string>
-    <string name="Tataouine_Description">Tataouine</string>
+    <string name="Tataouine_Description">(code TN-83)</string>
 
     <string name="Tozeur">Tozeur</string>
-    <string name="Tozeur_Description">Tozeur</string>
+    <string name="Tozeur_Description">(code TN-72)</string>
 
     <string name="Tunis">Tunis</string>
-    <string name="Tunis_Description">Tunis</string>
+    <string name="Tunis_Description">(code TN-11)</string>
 
     <string name="Zaghouan">Zaghouan</string>
-    <string name="Zaghouan_Description">Zaghouan</string>
+    <string name="Zaghouan_Description">(code TN-22)</string>
 
 
     <!-- Toast-->
     <string name="SélectionItem">Sélection Item</string>
     <string name="Votrechoix">Votre choix  </string>
     <string name="ok">ok</string>
-    <string name="search">chercher</string>
     <!-- Ariana-->
-    <string name="text2"> liste des hôtels en Ariena</string>
     <!-- samronhotel-->
-    <string name="samron_Title">SAMARONS HOTELS</string>
+    <string name="samron_Title">SAMARONS HÔTEL</string>
     <string name="samron_Description">Hôtel cinq étoiles</string>
-    <string name="samron_Text">Chambres et suites sophistiquées dans un établissement distingué avec 2 restaurants et un bar contemporain
-        Cet hôtel se trouve à 12 km du musée national du Bardo, et à 13 km de la mosquée Zitouna.
-        Prix Nuit :320 DT</string>
+    <string name="samron_Text">Chambres et suites sophistiquées dans un établissement distingué avec 2 restaurants et un bar contemporain,Cet hôtel se trouve à 12 km du musée national du Bardo, et à 13 km de la mosquée Zitouna Prix Nuit :320 DTChambres et suites sophistiquées dans un établissement distingué avec 2 restaurants et un bar contemporain,Cet hôtel se trouve à 12 km du musée national du Bardo, et à 13 km de la mosquée Zitouna Prix Nuit :320 DTChambres et suites sophistiquées dans un établissement distingué avec 2 restaurants et un bar contemporain,Cet hôtel se trouve à 12 km du musée national du Bardo, et à 13 km de la mosquée Zitouna Prix Nuit :320 DTChambres et suites sophistiquées dans un établissement distingué avec 2 restaurants et un bar contemporain,Cet hôtel se trouve à 12 km du musée national du Bardo, et à 13 km de la mosquée Zitouna Prix Nuit :320 DT</string>
     <string name="tel_samron">36 400 000</string>
     <string name="title_activity_maps_samron">Map</string>
     <!-- penthose hotel-->
     <string name="penthose_Title">Penthose</string>
     <string name="penthose_Description">Hôtel quatre étoiles</string>
-    <string name="penthouse_Text">Installé dans un quartier résidentiel à proximité de boutiques
-        et de restaurants, se trouve à 7 km de l"aéroport international de Tunis-Carthage et à 10 km du musée national du Bardo,
-        qui est consacré à l'histoire.
-        Prix Nuit :288 DT
-    </string>
+    <string name="penthouse_Text">"Installé dans un quartier résidentiel à proximité de boutiques et de restaurants, se trouve à 7 km de laéroport international de Tunis-Carthage et à 10 km du musée national du Bardo,qui est consacré l'histoire. Prix Nuit :288 DT     "</string>
     <string name="tel_penthose">71 811 766</string>
     <string name="title_activity_maps_penthouse">Map</string>
 
@@ -126,7 +123,6 @@
         Prix Nuit :164 DT
     </string>
     <string name="tel_ramsam">71 811 777</string>
-    <string name="title_activity_maps_ramsam">Map</string>
 
     <!-- Hôtel alrawabi-->
     <string name="alrawabi_Title">Hôtel Alrawabi</string>
@@ -158,5 +154,11 @@
     <string name="tel_darezzahra">71 450 788</string>
     <string name="title_activity_maps_daezzahra">Map</string>
     <string name="title_activity_maps_darezzahra">Map</string>
+    <string name="Bizerte">Bizerte</string>
+
+    <string name="text2">" liste des hôtels en Ariana"</string>
+    <string name="search">chercher</string>
+    <string name="title_activity_maps_ramsam">Map</string>
+
 
 </resources>

@@ -47,10 +47,17 @@ FirebaseAuth  firebaseAuth;
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         //si la creation d'un nouveau utilisateur est réussite alors un toast etre affiché
                         if (task.isSuccessful()){
-                            Toast.makeText(Signup.this,message,Toast.LENGTH_LONG).show();
+                            Toast ToastMessage = Toast.makeText(getApplicationContext(),message,Toast.LENGTH_SHORT);
+                            View toastView = ToastMessage.getView();
+                            toastView.setBackgroundColor(R.layout.toast_background_color);
+                            ToastMessage.show();
                         }
                         //si il y'a une erreur alors un Tost qui s'affiche avec une exception
-                        else { Toast.makeText(Signup.this,task.getException().toString(),Toast.LENGTH_LONG).show();}
+                        else {
+                            Toast ToastMessage = Toast.makeText(getApplicationContext(),task.getException().toString(),Toast.LENGTH_SHORT);
+                            View toastView = ToastMessage.getView();
+                            toastView.setBackgroundColor(R.layout.toast_background_color);
+                            ToastMessage.show();}
 
                     }
 

@@ -886,6 +886,7 @@ id buttonSignup
 id buttonSignup2
 id center_vertical
 id chains
+id checkBox
 id checkbox
 id checked
 id chronometer
@@ -1108,6 +1109,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+layout toast_background_color
 mipmap ic_launcher
 mipmap ic_launcher_round
 mipmap logo
@@ -1121,6 +1123,8 @@ string Bizerte
 string Bizerte_Description
 string Béja
 string Béja_Description
+string Chackbox
+string Email
 string Gabès
 string Gabès_Description
 string Gafsa
@@ -1145,6 +1149,7 @@ string Médenine
 string Médenine_Description
 string Nabeul
 string Nabeul_Description
+string Password
 string Sfax
 string Sfax_Description
 string SidiBouzid
@@ -1195,6 +1200,7 @@ string alrawabi_Text
 string alrawabi_Title
 string app_name
 string bain
+string chackbox
 string climatisation
 string common_google_play_services_enable_button
 string common_google_play_services_enable_text
