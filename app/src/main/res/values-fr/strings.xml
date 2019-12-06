@@ -8,9 +8,9 @@
     <string name="Bizerte">Bizerte</string>
     <string name="Bizerte_Description">(code TN-23)</string>
     <string name="Béja">Béja</string>
-    <string name="Béja_Description">Hôtel quatre étoilesHôtel quatre étoiles</string>
-    <string name="Chackbox">com.example.leshtelsentunisie.mchackebox</string>
-    <string name="Email">com.example.leshtelsentunisie.mEmail</string>
+    <string name="Béja_Description">(code TN-31)</string>
+    <string name="Chackbox">com.example.leshtelsentunisie.checkbox</string>
+    <string name="Email">com.example.leshtelsentunisie.email</string>
     <string name="Gabès">Gabès</string>
     <string name="Gabès_Description">(code TN-81)</string>
     <string name="Gafsa">Gafsa</string>
@@ -35,7 +35,7 @@
     <string name="Médenine_Description">(code TN-82)</string>
     <string name="Nabeul">Nabeul</string>
     <string name="Nabeul_Description">(code TN-21)</string>
-    <string name="Password">com.example.leshtelsentunisie.mPassword</string>
+    <string name="Password">com.example.leshtelsentunisie.password</string>
     <string name="Sfax">Sfax</string>
     <string name="Sfax_Description">(code TN-61)</string>
     <string name="SidiBouzid">Sidi Bouzid</string>
@@ -55,13 +55,15 @@
     <string name="Zaghouan">Zaghouan</string>
     <string name="Zaghouan_Description">(code TN-22)</string>
     <string name="alrawabi_Description">Hôtel trois étoiles</string>
-    <string name="alrawabi_Text">Bien pour son emplacement, et sa proximité des lieux à visiter et des transports</string>
+    <string name="alrawabi_Text">Bien pour son emplacement, et sa proximité des lieux à visiter et des transports
+        Chambres sobres dans hôtel coloré avec terrasse commune et piscine extérieure.
+        Prix Nuit :164 DT</string>
     <string name="alrawabi_Title">Hôtel Alrawabi</string>
     <string name="bain">"Bain à remous "</string>
     <string name="chackbox">enregistrer mes données</string>
     <string name="climatisation">"Climatisation "</string>
     <string name="darezzahra_Description">Hôtel trois étoiles</string>
-    <string name="darezzahra_Text">"Bien pour son emplacement, et sa proximité des lieux à visiter et des transports         Prix Nuit :217 DT     "</string>
+    <string name="darezzahra_Text">"Bien pour son emplacement, et sa proximité des lieux à visiter et des transports  Prix Nuit :217 DT     "</string>
     <string name="darezzahra_Title">Hôtel Dar Ezzahra</string>
     <string name="darsalima_Description">Hôtel deux étoiles</string>
     <string name="darsalima_Text">"Bien pour son emplacement, et sa proximité des lieux à visiter et des transports Prix Nuit :134 DT     "</string>
@@ -79,12 +81,16 @@
     <string name="password">Password</string>
     <string name="penthose_Description">Hôtel quatre étoiles</string>
     <string name="penthose_Title">Penthose</string>
-    <string name="penthouse_Text">"Installé dans un quartier résidentiel à proximité de boutiques         et de restaurants, se trouve à 7 km de laéroport international de Tunis-Carthage et à 10 km du musée national du Bardo,         qui est consacré à l'histoire.         Prix Nuit :288 DT     Installé dans un quartier résidentiel à proximité de boutiques         et de restaurants, se trouve à 7 km de laéroport international de Tunis-Carthage et à 10 km du musée national du Bardo,         qui est consacré à l'histoire.         Prix Nuit :288 DT     "</string>
+    <string name="penthouse_Text">"Installé dans un quartier résidentiel à proximité de boutiques et de restaurants
+        , se trouve à 7 km de laéroport international de Tunis-Carthage et à 10 km du musée national du Bardo,
+        qui est consacré à l'histoire,Prix Nuit :288 DT  </string>
     <string name="ramsam_Description">Hôtel deux étoiles</string>
-    <string name="ramsam_Text">Bien pour son emplacement, et sa proximité des lieux à visiter et des transports</string>
+    <string name="ramsam_Text">Bien pour son emplacement, et sa proximité des lieux à visiter et des transports
+        Prix Nuit :164 DT</string>
     <string name="ramsam_Title">Hôtel RamSam</string>
     <string name="samron_Description">Hôtel cinq étoiles</string>
-    <string name="samron_Text">Chambres et suites sophistiquées dans un établissement distingué avec 2 restaurants et un bar contemporain, Cet hôtel se trouve à 12 km du musée national du Bardo, et à 13 km de la mosquée Zitouna.</string>
+    <string name="samron_Text"> Chambres et suites sophistiquées dans un établissement distingué avec 2 restaurants et un bar contemporain,
+        Cet hôtel se trouve à 12 km du musée national du Bardo, et à 13 km de la mosquée Zitouna Prix Nuit :320 DT .</string>
     <string name="samron_Title">SAMARONS HÔTEL</string>
     <string name="search">chercher</string>
     <string name="wifi">Wifi</string>

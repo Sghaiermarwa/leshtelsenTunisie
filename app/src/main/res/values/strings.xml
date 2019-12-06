@@ -8,9 +8,9 @@
     <string name="messagesucces">Bienvenu dans notre espace</string>
     <string name="chackbox">enregistrer mes données</string>
 
-    <string name="Chackbox">com.example.leshtelsentunisie.mchackebox</string>
-    <string name="Email">com.example.leshtelsentunisie.mEmail</string>
-    <string name="Password">com.example.leshtelsentunisie.mPassword</string>
+    <string name="Chackbox">com.example.leshtelsentunisie.checkbox</string>
+    <string name="Email">com.example.leshtelsentunisie.email</string>
+    <string name="Password">com.example.leshtelsentunisie.password</string>
 
 
 
@@ -103,13 +103,16 @@
     <!-- samronhotel-->
     <string name="samron_Title">SAMARONS HÔTEL</string>
     <string name="samron_Description">Hôtel cinq étoiles</string>
-    <string name="samron_Text">Chambres et suites sophistiquées dans un établissement distingué avec 2 restaurants et un bar contemporain,Cet hôtel se trouve à 12 km du musée national du Bardo, et à 13 km de la mosquée Zitouna Prix Nuit :320 DTChambres et suites sophistiquées dans un établissement distingué avec 2 restaurants et un bar contemporain,Cet hôtel se trouve à 12 km du musée national du Bardo, et à 13 km de la mosquée Zitouna Prix Nuit :320 DTChambres et suites sophistiquées dans un établissement distingué avec 2 restaurants et un bar contemporain,Cet hôtel se trouve à 12 km du musée national du Bardo, et à 13 km de la mosquée Zitouna Prix Nuit :320 DTChambres et suites sophistiquées dans un établissement distingué avec 2 restaurants et un bar contemporain,Cet hôtel se trouve à 12 km du musée national du Bardo, et à 13 km de la mosquée Zitouna Prix Nuit :320 DT</string>
+    <string name="samron_Text">Chambres et suites sophistiquées dans un établissement distingué avec 2 restaurants et un bar contemporain,
+        Cet hôtel se trouve à 12 km du musée national du Bardo, et à 13 km de la mosquée Zitouna Prix Nuit :320 </string>
     <string name="tel_samron">36 400 000</string>
     <string name="title_activity_maps_samron">Map</string>
     <!-- penthose hotel-->
     <string name="penthose_Title">Penthose</string>
     <string name="penthose_Description">Hôtel quatre étoiles</string>
-    <string name="penthouse_Text">"Installé dans un quartier résidentiel à proximité de boutiques et de restaurants, se trouve à 7 km de laéroport international de Tunis-Carthage et à 10 km du musée national du Bardo,qui est consacré l'histoire. Prix Nuit :288 DT     "</string>
+    <string name="penthouse_Text">"Installé dans un quartier résidentiel à proximité de boutiques et de restaurants,
+        se trouve à 7 km de laéroport international de Tunis-Carthage et à 10 km du musée national du Bardo,
+        qui est consacré l'histoire. Prix Nuit :288 DT     "</string>
     <string name="tel_penthose">71 811 766</string>
     <string name="title_activity_maps_penthouse">Map</string>
 

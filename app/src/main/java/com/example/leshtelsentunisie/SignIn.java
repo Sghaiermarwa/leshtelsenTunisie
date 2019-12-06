@@ -19,23 +19,32 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class SignIn extends AppCompatActivity {
-    EditText email;
-    EditText password ;
-    Button signup;
-    Button signin;
-    String messageerreur;
-    String messagesucces;
+    private EditText memail;
+    private EditText mpassword ;
+    private  Button signup;
+    private Button signin;
+    private String messageerreur;
+    private String messagesucces;
     FirebaseAuth firebaseAuth;
+    //savedpreferences
+    private CheckBox mcheckBox;
+    private SharedPreferences mPreferences;
+    private SharedPreferences.Editor mEditor;
+    private static final String TAG ="SignIn";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_in);
-        email=findViewById(R.id.editTextEmail);
-        password =findViewById(R.id.editTextPassword);
-        signup=findViewById(R.id.buttonSignup);
-        signin=findViewById(R.id.buttonSignin);
+        memail=(EditText)findViewById(R.id.editTextEmail);
+        mpassword=(EditText)findViewById(R.id.editTextPassword);
+        signup=(Button)findViewById(R.id.buttonSignup);
+        signin=(Button)findViewById(R.id.buttonSignin);
 
+        mcheckBox=(CheckBox) findViewById(R.id.checkBox);
+        mPreferences=PreferenceManager.getDefaultSharedPreferences(this);
+        mEditor=mPreferences.edit();
+        checkSharedPreferences();
 
         //récupérztion du message  existe dans le fichier string
         messageerreur=getString(R.string.messageerreur);
@@ -47,7 +56,7 @@ public class SignIn extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //création s'un nouveau utulisateur dans la fire base
-                firebaseAuth.signInWithEmailAndPassword(email.getText().toString(),password.getText().toString())
+                firebaseAuth.signInWithEmailAndPassword(memail.getText().toString(),mpassword.getText().toString())
                         .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {
@@ -72,6 +81,36 @@ public class SignIn extends AppCompatActivity {
                             }
 
                         });
+                //enregistrer le sheckbox preference
+                if(mcheckBox.isChecked()){
+                    //modifier le  checkbox si l'application débute
+                    mEditor.putString(getString(R.string.chackbox),"True");
+                    mEditor.commit();
+
+                    //enregistrer l' email
+                    String email =memail.getText().toString();
+                    mEditor.putString(getString(R.string.email),email);
+                    mEditor.commit();
+
+                    //enregistrer le password
+                    String password =mpassword.getText().toString();
+                    mEditor.putString(getString(R.string.Password),email);
+                    mEditor.commit();
+                }
+                else {
+                    //modifier le  checkbox si l'application débute
+                    mEditor.putString(getString(R.string.chackbox),"False");
+                    mEditor.commit();
+
+                    //enregister l'email
+
+                    mEditor.putString(getString(R.string.email),"");
+                    mEditor.commit();
+
+                    //enregister le password
+
+                    mEditor.putString(getString(R.string.Password),"");
+                    mEditor.commit();}
 
 
             }
@@ -85,6 +124,21 @@ public class SignIn extends AppCompatActivity {
             }
         });
 
+
+    }
+    private void checkSharedPreferences(){
+        String checkbox=mPreferences.getString(getString(R.string.chackbox),"False");
+        String email=mPreferences.getString(getString(R.string.email),"");
+        String password=mPreferences.getString(getString(R.string.Password),"");
+        memail.setText(email);
+        mpassword.setText(password);
+        if(checkbox.equals("True")){
+            mcheckBox.setChecked(true);
+
+        }
+        else {
+            mcheckBox.setChecked(false);
+        }
 
     }
 

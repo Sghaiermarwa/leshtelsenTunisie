@@ -6,8 +6,8 @@
     <string name="BenArous_Description">(الكود TN-13)</string>
     <string name="Bizerte">بنزرت</string>
     <string name="Béja">باجة</string>
-    <string name="Chackbox">com.example.leshtelsentunisie.mchackebox</string>
-    <string name="Email">com.example.leshtelsentunisie.mEmail</string>
+    <string name="Chackbox">com.example.leshtelsentunisie.checkbox</string>
+    <string name="Email">com.example.leshtelsentunisie.email</string>
     <string name="Zaghouan_Description">(الكود TN-22)</string>
     <string name="Tunis_Description">(الكود TN-11)</string>
     <string name="Tozeur_Description">(الكود TN-72)</string>
@@ -43,7 +43,7 @@
     <string name="Monastir">المنستير</string>
     <string name="Médenine">مدنين</string>
     <string name="Nabeul">نابل\t</string>
-    <string name="Password">com.example.leshtelsentunisie.mPassword</string>
+    <string name="Password">com.example.leshtelsentunisie.password</string>
     <string name="Sfax">صفاقس</string>
     <string name="SidiBouzid">سيدي بوزيد</string>
     <string name="Siliana">سليانة</string>
