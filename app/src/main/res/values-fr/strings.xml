@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <string name="messagenav">Ouvrez le tiroir de navigation</string>
     <string name="app_name">Les hôtels en tunisie</string>
     <string name="Ariana">Ariana</string>
     <string name="Ariana_Description">(code TN-12)</string>
@@ -9,8 +11,6 @@
     <string name="Bizerte_Description">(code TN-23)</string>
     <string name="Béja">Béja</string>
     <string name="Béja_Description">(code TN-31)</string>
-    <string name="Chackbox">com.example.leshtelsentunisie.checkbox</string>
-    <string name="Email">com.example.leshtelsentunisie.email</string>
     <string name="Gabès">Gabès</string>
     <string name="Gabès_Description">(code TN-81)</string>
     <string name="Gafsa">Gafsa</string>
@@ -35,7 +35,6 @@
     <string name="Médenine_Description">(code TN-82)</string>
     <string name="Nabeul">Nabeul</string>
     <string name="Nabeul_Description">(code TN-21)</string>
-    <string name="Password">com.example.leshtelsentunisie.password</string>
     <string name="Sfax">Sfax</string>
     <string name="Sfax_Description">(code TN-61)</string>
     <string name="SidiBouzid">Sidi Bouzid</string>
@@ -68,7 +67,7 @@
     <string name="darsalima_Description">Hôtel deux étoiles</string>
     <string name="darsalima_Text">"Bien pour son emplacement, et sa proximité des lieux à visiter et des transports Prix Nuit :134 DT     "</string>
     <string name="darsalima_Title">Hôtel Dar Salima</string>
-    <string name="email">Email</string>
+    <string name="emailText">Email</string>
     <string name="image_description">Image d\'item</string>
     <string name="listhbeja">" liste des hôtels en Béja"</string>
     <string name="listhbenarous">" liste des hôtels en Ben Arous"</string>
@@ -78,7 +77,7 @@
     <string name="messagesucces">Bienvenu dans notre espace</string>
     <string name="ok">ok</string>
     <string name="parking">Parking</string>
-    <string name="password">Password</string>
+    <string name="passwordText">Password</string>
     <string name="penthose_Description">Hôtel quatre étoiles</string>
     <string name="penthose_Title">Penthose</string>
     <string name="penthouse_Text">"Installé dans un quartier résidentiel à proximité de boutiques et de restaurants
@@ -111,4 +110,14 @@
     <string name="tel_alrawabi">78 470 576</string>
     <string name="signup">S\'inscrire</string>
     <string name="signin">Se connecter</string>
+    <string name="Chackbox">com.example.leshtelsentunisie.checkbox</string>
+    <string name="Email">com.example.leshtelsentunisie.email</string>
+    <string name="Password">com.example.leshtelsentunisie.password</string>
+    <string name="msg">aucun contenue</string>
+    <string name="monnom">Sghaier Marwa</string>
+    <string name="navSignIn">Se Connecter</string>
+    <string name="navSignUp">S\'inscrire</string>
+    <string name="navpropos">À propos de nous</string>
+    <string name="textdes">Cette application est une application simple, elle facile  le choix pour  un utilisateur de trouver un hôtel pour passer les vacances, just il  seul  sinscrire, et il peut aussi trouver des informations et des localisation d hôtels</string>
+
 </resources>

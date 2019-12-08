@@ -40,8 +40,8 @@ public class MapsActivityPenthouse extends FragmentActivity implements OnMapRead
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(36.86012, 10.19337);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Ariana ,Tunisie"));
+        LatLng sydney = new LatLng(36.8683309, 10.1591596);
+        mMap.addMarker(new MarkerOptions().position(sydney).title(getString(R.string.penthose_Title)));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
 }

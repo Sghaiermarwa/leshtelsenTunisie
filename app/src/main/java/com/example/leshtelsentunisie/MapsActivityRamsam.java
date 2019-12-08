@@ -40,8 +40,8 @@ public class MapsActivityRamsam extends FragmentActivity implements OnMapReadyCa
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(36.72564, 9.18169);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Béja,Tunisie"));
+        LatLng sydney = new LatLng(36.7277491, 9.1840701);
+        mMap.addMarker(new MarkerOptions().position(sydney).title(getString(R.string.ramsam_Title)));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
 }

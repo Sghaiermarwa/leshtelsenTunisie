@@ -7,18 +7,27 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 
 public class MainActivity extends AppCompatActivity {
     protected ListView listGouvernorat;
+    private String msg;
+    private SimpleAdapter adapter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //ce message  etre afficher dans un toast comme
+        // une remarque car j'ai ralisé seulement les interface deu Arian,Beja,Benarous
+        msg=getString(R.string.msg);
 
         // Récupération de la "ListView" créée dans le fichier activity_main.xml
         listGouvernorat = findViewById(R.id.listHarianaID);
@@ -177,7 +186,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         // Création d'un SimpleAdapter
-        SimpleAdapter adapter = new SimpleAdapter(this.getBaseContext(),
+        adapter = new SimpleAdapter(this.getBaseContext(),
                 listItem,
                 R.layout.activity_list_item,
                 new String[]{"img", "titre", "description"},
@@ -203,88 +212,130 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(newActivity2);
                         break;
                     case 3:
-                        Intent newActivity3 = new Intent(MainActivity.this, List_Hotel_Ariana_Main_Activity.class);
-                        startActivity(newActivity3);
+                        Toast ToastMessage = Toast.makeText(getApplicationContext(),msg,Toast.LENGTH_SHORT);
+                        View toastView = ToastMessage.getView();
+                        toastView.setBackgroundColor(R.layout.toast_background_color);
+                        ToastMessage.show();
                         break;
                     case 4:
-                        Intent newActivity4 = new Intent(MainActivity.this, List_Hotel_Ariana_Main_Activity.class);
-                        startActivity(newActivity4);
+                        Toast ToastMessage2 = Toast.makeText(getApplicationContext(),msg,Toast.LENGTH_SHORT);
+                        View toastView2 = ToastMessage2.getView();
+                        toastView2.setBackgroundColor(R.layout.toast_background_color);
+                        ToastMessage2.show();
                         break;
                     case 5:
-                        Intent newActivity5 = new Intent(MainActivity.this, List_Hotel_Ariana_Main_Activity.class);
-                        startActivity(newActivity5);
+                        Toast ToastMessage3 = Toast.makeText(getApplicationContext(),msg,Toast.LENGTH_SHORT);
+                        View toastView3 = ToastMessage3.getView();
+                        toastView3.setBackgroundColor(R.layout.toast_background_color);
+                        ToastMessage3.show();
                         break;
                     case 6:
-                        Intent newActivity6 = new Intent(MainActivity.this,List_Hotel_Ariana_Main_Activity.class);
-                        startActivity(newActivity6);
+                        Toast ToastMessage4 = Toast.makeText(getApplicationContext(),msg,Toast.LENGTH_SHORT);
+                        View toastView4 = ToastMessage4.getView();
+                        toastView4.setBackgroundColor(R.layout.toast_background_color);
+                        ToastMessage4.show();
                         break;
                     case 7:
-                        Intent newActivity7 = new Intent(MainActivity.this, List_Hotel_Ariana_Main_Activity.class);
-                        startActivity(newActivity7);
+                        Toast ToastMessage5 = Toast.makeText(getApplicationContext(),msg,Toast.LENGTH_SHORT);
+                        View toastView5 = ToastMessage5.getView();
+                        toastView5.setBackgroundColor(R.layout.toast_background_color);
+                        ToastMessage5.show();
                         break;
                     case 8:
-                        Intent newActivity8 = new Intent(MainActivity.this, List_Hotel_Ariana_Main_Activity.class);
-                        startActivity(newActivity8);
+                        Toast ToastMessage6 = Toast.makeText(getApplicationContext(),msg,Toast.LENGTH_SHORT);
+                        View toastView6 = ToastMessage6.getView();
+                        toastView6.setBackgroundColor(R.layout.toast_background_color);
+                        ToastMessage6.show();
                         break;
                     case 9:
-                        Intent newActivity9 = new Intent(MainActivity.this, List_Hotel_Ariana_Main_Activity.class);
-                        startActivity(newActivity9);
+                        Toast ToastMessage7 = Toast.makeText(getApplicationContext(),msg,Toast.LENGTH_SHORT);
+                        View toastView7 = ToastMessage7.getView();
+                        toastView7.setBackgroundColor(R.layout.toast_background_color);
+                        ToastMessage7.show();
                         break;
                     case 10:
-                        Intent newActivity10 = new Intent(MainActivity.this, List_Hotel_Ariana_Main_Activity.class);
-                        startActivity(newActivity10);
+                        Toast ToastMessage8 = Toast.makeText(getApplicationContext(),msg,Toast.LENGTH_SHORT);
+                        View toastView8 = ToastMessage8.getView();
+                        toastView8.setBackgroundColor(R.layout.toast_background_color);
+                        ToastMessage8.show();
                         break;
                     case 11:
-                        Intent newActivity11 = new Intent(MainActivity.this, List_Hotel_Ariana_Main_Activity.class);
-                        startActivity(newActivity11);
+                        Toast ToastMessage9 = Toast.makeText(getApplicationContext(),msg,Toast.LENGTH_SHORT);
+                        View toastView9 = ToastMessage9.getView();
+                        toastView9.setBackgroundColor(R.layout.toast_background_color);
+                        ToastMessage9.show();
                         break;
                     case 12:
-                        Intent newActivity12 = new Intent(MainActivity.this, List_Hotel_Ariana_Main_Activity.class);
-                        startActivity(newActivity12);
+                        Toast ToastMessage10 = Toast.makeText(getApplicationContext(),msg,Toast.LENGTH_SHORT);
+                        View toastView10 = ToastMessage10.getView();
+                        toastView10.setBackgroundColor(R.layout.toast_background_color);
+                        ToastMessage10.show();
                         break;
                     case 13:
-                        Intent newActivity13 = new Intent(MainActivity.this,List_Hotel_Ariana_Main_Activity.class);
-                        startActivity(newActivity13);
+                        Toast ToastMessage11 = Toast.makeText(getApplicationContext(),msg,Toast.LENGTH_SHORT);
+                        View toastView11 = ToastMessage11.getView();
+                        toastView11.setBackgroundColor(R.layout.toast_background_color);
+                        ToastMessage11.show();
                         break;
                     case 14:
-                        Intent newActivity14 = new Intent(MainActivity.this, List_Hotel_Ariana_Main_Activity.class);
-                        startActivity(newActivity14);
+                        Toast ToastMessage12 = Toast.makeText(getApplicationContext(),msg,Toast.LENGTH_SHORT);
+                        View toastView12 = ToastMessage12.getView();
+                        toastView12.setBackgroundColor(R.layout.toast_background_color);
+                        ToastMessage12.show();
                         break;
                     case 15:
-                        Intent newActivity15 = new Intent(MainActivity.this, List_Hotel_Ariana_Main_Activity.class);
-                        startActivity(newActivity15);
+                        Toast ToastMessage13 = Toast.makeText(getApplicationContext(),msg,Toast.LENGTH_SHORT);
+                        View toastView13 = ToastMessage13.getView();
+                        toastView13.setBackgroundColor(R.layout.toast_background_color);
+                        ToastMessage13.show();
                         break;
                     case 16:
-                        Intent newActivity16 = new Intent(MainActivity.this, List_Hotel_Ariana_Main_Activity.class);
-                        startActivity(newActivity16);
+                        Toast ToastMessage14 = Toast.makeText(getApplicationContext(),msg,Toast.LENGTH_SHORT);
+                        View toastView14 = ToastMessage14.getView();
+                        toastView14.setBackgroundColor(R.layout.toast_background_color);
+                        ToastMessage14.show();
                         break;
                     case 17:
-                        Intent newActivity17 = new Intent(MainActivity.this, List_Hotel_Ariana_Main_Activity.class);
-                        startActivity(newActivity17);
+                        Toast ToastMessage15 = Toast.makeText(getApplicationContext(),msg,Toast.LENGTH_SHORT);
+                        View toastView15 = ToastMessage15.getView();
+                        toastView15.setBackgroundColor(R.layout.toast_background_color);
+                        ToastMessage15.show();
                         break;
                     case 18:
-                        Intent newActivity18 = new Intent(MainActivity.this,List_Hotel_Ariana_Main_Activity.class);
-                        startActivity(newActivity18);
+                        Toast ToastMessage16 = Toast.makeText(getApplicationContext(),msg,Toast.LENGTH_SHORT);
+                        View toastView16 = ToastMessage16.getView();
+                        toastView16.setBackgroundColor(R.layout.toast_background_color);
+                        ToastMessage16.show();
                         break;
                     case 19:
-                        Intent newActivity19 = new Intent(MainActivity.this, List_Hotel_Ariana_Main_Activity.class);
-                        startActivity(newActivity19);
+                        Toast ToastMessage17 = Toast.makeText(getApplicationContext(),msg,Toast.LENGTH_SHORT);
+                        View toastView17 = ToastMessage17.getView();
+                        toastView17.setBackgroundColor(R.layout.toast_background_color);
+                        ToastMessage17.show();
                         break;
                     case 20:
-                        Intent newActivity20 = new Intent(MainActivity.this, List_Hotel_Ariana_Main_Activity.class);
-                        startActivity(newActivity20);
+                        Toast ToastMessage18 = Toast.makeText(getApplicationContext(),msg,Toast.LENGTH_SHORT);
+                        View toastView18 = ToastMessage18.getView();
+                        toastView18.setBackgroundColor(R.layout.toast_background_color);
+                        ToastMessage18.show();
                         break;
                     case 21:
-                        Intent newActivity21 = new Intent(MainActivity.this,List_Hotel_Ariana_Main_Activity.class);
-                        startActivity(newActivity21);
+                        Toast ToastMessage19 = Toast.makeText(getApplicationContext(),msg,Toast.LENGTH_SHORT);
+                        View toastView19 = ToastMessage19.getView();
+                        toastView19.setBackgroundColor(R.layout.toast_background_color);
+                        ToastMessage19.show();
                         break;
                     case 22:
-                        Intent newActivity22 = new Intent(MainActivity.this, List_Hotel_Ariana_Main_Activity.class);
-                        startActivity(newActivity22);
+                        Toast ToastMessage20 = Toast.makeText(getApplicationContext(),msg,Toast.LENGTH_SHORT);
+                        View toastView20 = ToastMessage20.getView();
+                        toastView20.setBackgroundColor(R.layout.toast_background_color);
+                        ToastMessage20.show();
                         break;
                     case 23:
-                        Intent newActivity23 = new Intent(MainActivity.this, List_Hotel_Ariana_Main_Activity.class);
-                        startActivity(newActivity23);
+                        Toast ToastMessage21 = Toast.makeText(getApplicationContext(),msg,Toast.LENGTH_SHORT);
+                        View toastView21 = ToastMessage21.getView();
+                        toastView21.setBackgroundColor(R.layout.toast_background_color);
+                        ToastMessage21.show();
                         break;
                 }
             }

@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="messagenav">افتح درج التنقل</string>
     <string name="app_name">الفنادق في تونس</string>
     <string name="Ariana">أريانة</string>
     <string name="BenArous">بن عروس</string>
     <string name="BenArous_Description">(الكود TN-13)</string>
     <string name="Bizerte">بنزرت</string>
     <string name="Béja">باجة</string>
-    <string name="Chackbox">com.example.leshtelsentunisie.checkbox</string>
-    <string name="Email">com.example.leshtelsentunisie.email</string>
     <string name="Zaghouan_Description">(الكود TN-22)</string>
     <string name="Tunis_Description">(الكود TN-11)</string>
     <string name="Tozeur_Description">(الكود TN-72)</string>
@@ -43,7 +42,6 @@
     <string name="Monastir">المنستير</string>
     <string name="Médenine">مدنين</string>
     <string name="Nabeul">نابل\t</string>
-    <string name="Password">com.example.leshtelsentunisie.password</string>
     <string name="Sfax">صفاقس</string>
     <string name="SidiBouzid">سيدي بوزيد</string>
     <string name="Siliana">سليانة</string>
@@ -83,7 +81,7 @@
     <string name="penthouse_Text">تقع في منطقة سكنية بالقرب من المتاجر          يقع الفندق على بعد 7 كم من مطار تونس قرطاج الدولي و 10 كم من متحف باردو الوطني وهو مكرس للتاريخ. سعر الليلة: 288 DT</string>
     <string name="penthose_Title">بانثوز</string>
     <string name="penthose_Description">فندق أربع نجوم</string>
-    <string name="password">كلمة المرور</string>
+    <string name="passwordText"> كلمة المرور </string>
     <string name="parking">Parking</string>
     <string name="ok">حسنا</string>
     <string name="messagesucces">مرحبا بكم في فضائنا</string>
@@ -93,7 +91,7 @@
     <string name="listhbenarous">قائمة الفنادق في بن عروس</string>
     <string name="listhbeja">قائمة الفنادق في باجة</string>
     <string name="image_description">صورة البند</string>
-    <string name="email">البريد الإلكتروني</string>
+    <string name="emailText">البريد الإلكتروني </string>
     <string name="darsalima_Title">فندق دار سليمة</string>
     <string name="darsalima_Text">جيد لموقعه ، وقربه من أماكن الزيارة والنقل سعر الليلة: 134 DT</string>
     <string name="darsalima_Description">فندق نجمتين</string>
@@ -105,4 +103,13 @@
     <string name="alrawabi_Title">فندق الروابي</string>
     <string name="alrawabi_Text">"جيد لموقعه ، وقربه من أماكن المشاهدة والنقل ، وغرف رصينة في فندق غني بالألوان مع تراس "</string>
     <string name="samron_Title">سامارونس</string>
+    <string name="Chackbox">com.example.leshtelsentunisie.checkbox</string>
+    <string name="Email">com.example.leshtelsentunisie.email</string>
+    <string name="Password">com.example.leshtelsentunisie.password</string>
+    <string name="msg">لا يوجد محتوى</string>
+    <string name="monnom">مروى الصغير</string>
+    <string name="navSignIn">تسجيل الدخول</string>
+    <string name="navSignUp">سجل</string>
+    <string name="navpropos">في ما يخصنا</string>
+    <string name="textdes">هذا التطبيق هو تطبيق بسيط ، يسهل على المستخدم العثور على فندق لقضاء العطلات ، فقط يجب عليه التسجيل ،و يمكنه ايضا العثور على معلومات ومواقع الفنادق</string>
 </resources>

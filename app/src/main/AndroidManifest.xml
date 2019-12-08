@@ -18,13 +18,16 @@
         android:roundIcon="@mipmap/logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Signup">
-            </activity>
-        <activity android:name=".SignIn" ><intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+        <activity android:name=".propos"></activity>
+        <activity android:name=".MainActivityFirstInterface">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter></activity>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Signup" />
+        <activity android:name=".SignIn"></activity>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -64,9 +67,7 @@
             android:name=".MapsActivitySamron"
             android:label="@string/title_activity_maps_samron" />
         <activity android:name=".List_Hotel_Ariana_Main_Activity" />
-        <activity android:name=".MainActivity">
-
-        </activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

@@ -45,7 +45,7 @@
 26-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\13c226e437214fdcd738371431d4652d\play-services-measurement-17.2.1\AndroidManifest.xml:26:22-107
 27
 28    <application
-28-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:14:5-70:19
+28-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:14:5-71:19
 29        android:allowBackup="true"
 29-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:15:9-35
 30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -62,106 +62,110 @@
 36        android:testOnly="true"
 37        android:theme="@style/AppTheme" >
 37-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:20:9-40
-38        <activity android:name="com.example.leshtelsentunisie.Signup" >
-38-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:21:9-22:24
+38        <activity android:name="com.example.leshtelsentunisie.propos" />
+38-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:21:9-53
 38-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:21:19-41
-39        </activity>
-40        <activity android:name="com.example.leshtelsentunisie.SignIn" >
-40-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:23:9-27:36
-40-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:23:19-41
-41            <intent-filter>
-41-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:23:43-27:25
-42                <action android:name="android.intent.action.MAIN" />
-42-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:24:13-65
-42-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:24:21-62
-43
-44                <category android:name="android.intent.category.LAUNCHER" />
-44-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:26:13-73
-44-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:26:23-70
-45            </intent-filter>
-46        </activity>
-47        <!--
-48             The API key for Google Maps-based APIs is defined as a string resource.
-49             (See the file "res/values/google_maps_api.xml").
-50             Note that the API key is linked to the encryption key used to sign the APK.
-51             You need a different API key for each encryption key, including the release key that is used to
-52             sign the APK for publishing.
-53             You can define the keys for the debug and release targets in src/debug/ and src/release/.
-54        -->
-55        <meta-data
-55-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:36:9-38:55
-56            android:name="com.google.android.geo.API_KEY"
-56-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:37:13-58
-57            android:value="@string/google_maps_key" />
-57-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:38:13-52
-58
-59        <activity
-59-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:40:9-42:70
-60            android:name="com.example.leshtelsentunisie.MapsActivityDarezzahra"
-60-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:41:13-51
-61            android:label="@string/title_activity_maps_darezzahra" />
-61-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:42:13-67
-62        <activity android:name="com.example.leshtelsentunisie.Darezzahra_MainActivity" />
-62-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:43:9-61
-62-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:43:19-58
-63        <activity
-63-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:44:9-46:69
-64            android:name="com.example.leshtelsentunisie.MapsActivityDarsaliam"
-64-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:45:13-50
-65            android:label="@string/title_activity_maps_darsaliam" />
-65-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:46:13-66
-66        <activity android:name="com.example.leshtelsentunisie.Darsalima_MainActivity" />
-66-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:47:9-60
-66-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:47:19-57
-67        <activity android:name="com.example.leshtelsentunisie.List_Hotel_Benarous_Main_Activity" />
-67-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:48:9-71
-67-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:48:19-68
-68        <activity
-68-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:49:9-51:68
-69            android:name="com.example.leshtelsentunisie.MapsActivityAlrawabi"
-69-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:50:13-49
-70            android:label="@string/title_activity_maps_alrawabi" />
-70-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:51:13-65
-71        <activity android:name="com.example.leshtelsentunisie.Alrawabi_MainActivity" />
-71-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:52:9-59
-71-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:52:19-56
-72        <activity
-72-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:53:9-55:66
-73            android:name="com.example.leshtelsentunisie.MapsActivityRamsam"
-73-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:54:13-47
-74            android:label="@string/title_activity_maps_ramsam" />
-74-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:55:13-63
-75        <activity android:name="com.example.leshtelsentunisie.Ramsam_MainActivity" />
-75-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:56:9-57
-75-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:56:19-54
-76        <activity android:name="com.example.leshtelsentunisie.List_Hotel_Beja_Main_Activity" />
-76-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:57:9-67
-76-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:57:19-64
-77        <activity android:name="com.example.leshtelsentunisie.Samron_MainActivity" />
-77-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:58:9-57
-77-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:58:19-54
-78        <activity
-78-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:59:9-61:69
-79            android:name="com.example.leshtelsentunisie.MapsActivityPenthouse"
-79-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:60:13-50
-80            android:label="@string/title_activity_maps_penthouse" />
-80-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:61:13-66
-81        <activity android:name="com.example.leshtelsentunisie.Penthouse_MainActivity" />
-81-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:62:9-60
-81-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:62:19-57
-82        <activity
-82-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:63:9-65:66
-83            android:name="com.example.leshtelsentunisie.MapsActivitySamron"
-83-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:64:13-47
-84            android:label="@string/title_activity_maps_samron" />
-84-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:65:13-63
-85        <activity android:name="com.example.leshtelsentunisie.List_Hotel_Ariana_Main_Activity" />
-85-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:66:9-69
-85-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:66:19-66
-86        <activity android:name="com.example.leshtelsentunisie.MainActivity" >
-86-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:67:9-69:20
-86-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:67:19-47
-87        </activity>
+39        <activity android:name="com.example.leshtelsentunisie.MainActivityFirstInterface" >
+39-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:22:9-28:20
+39-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:22:19-61
+40            <intent-filter>
+40-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:23:13-27:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:24:17-69
+41-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:24:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:26:17-77
+43-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:26:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity android:name="com.example.leshtelsentunisie.Signup" />
+46-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:29:9-44
+46-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:29:19-41
+47        <activity android:name="com.example.leshtelsentunisie.SignIn" />
+47-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:30:9-53
+47-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:30:19-41
+48        <!--
+49             The API key for Google Maps-based APIs is defined as a string resource.
+50             (See the file "res/values/google_maps_api.xml").
+51             Note that the API key is linked to the encryption key used to sign the APK.
+52             You need a different API key for each encryption key, including the release key that is used to
+53             sign the APK for publishing.
+54             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+55        -->
+56        <meta-data
+56-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:39:9-41:55
+57            android:name="com.google.android.geo.API_KEY"
+57-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:40:13-58
+58            android:value="@string/google_maps_key" />
+58-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:41:13-52
+59
+60        <activity
+60-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:43:9-45:70
+61            android:name="com.example.leshtelsentunisie.MapsActivityDarezzahra"
+61-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:44:13-51
+62            android:label="@string/title_activity_maps_darezzahra" />
+62-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:45:13-67
+63        <activity android:name="com.example.leshtelsentunisie.Darezzahra_MainActivity" />
+63-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:46:9-61
+63-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:46:19-58
+64        <activity
+64-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:47:9-49:69
+65            android:name="com.example.leshtelsentunisie.MapsActivityDarsaliam"
+65-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:48:13-50
+66            android:label="@string/title_activity_maps_darsaliam" />
+66-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:49:13-66
+67        <activity android:name="com.example.leshtelsentunisie.Darsalima_MainActivity" />
+67-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:50:9-60
+67-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:50:19-57
+68        <activity android:name="com.example.leshtelsentunisie.List_Hotel_Benarous_Main_Activity" />
+68-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:51:9-71
+68-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:51:19-68
+69        <activity
+69-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:52:9-54:68
+70            android:name="com.example.leshtelsentunisie.MapsActivityAlrawabi"
+70-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:53:13-49
+71            android:label="@string/title_activity_maps_alrawabi" />
+71-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:54:13-65
+72        <activity android:name="com.example.leshtelsentunisie.Alrawabi_MainActivity" />
+72-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:55:9-59
+72-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:55:19-56
+73        <activity
+73-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:56:9-58:66
+74            android:name="com.example.leshtelsentunisie.MapsActivityRamsam"
+74-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:57:13-47
+75            android:label="@string/title_activity_maps_ramsam" />
+75-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:58:13-63
+76        <activity android:name="com.example.leshtelsentunisie.Ramsam_MainActivity" />
+76-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:59:9-57
+76-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:59:19-54
+77        <activity android:name="com.example.leshtelsentunisie.List_Hotel_Beja_Main_Activity" />
+77-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:60:9-67
+77-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:60:19-64
+78        <activity android:name="com.example.leshtelsentunisie.Samron_MainActivity" />
+78-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:61:9-57
+78-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:61:19-54
+79        <activity
+79-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:62:9-64:69
+80            android:name="com.example.leshtelsentunisie.MapsActivityPenthouse"
+80-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:63:13-50
+81            android:label="@string/title_activity_maps_penthouse" />
+81-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:64:13-66
+82        <activity android:name="com.example.leshtelsentunisie.Penthouse_MainActivity" />
+82-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:65:9-60
+82-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:65:19-57
+83        <activity
+83-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:66:9-68:66
+84            android:name="com.example.leshtelsentunisie.MapsActivitySamron"
+84-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:67:13-47
+85            android:label="@string/title_activity_maps_samron" />
+85-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:68:13-63
+86        <activity android:name="com.example.leshtelsentunisie.List_Hotel_Ariana_Main_Activity" />
+86-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:69:9-69
+86-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:69:19-66
+87        <activity android:name="com.example.leshtelsentunisie.MainActivity" />
+87-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:70:9-50
+87-->C:\Users\Marwa\AndroidStudioProjects\leshtelsenTunisie\app\src\main\AndroidManifest.xml:70:19-47
 88        <!-- Needs to be explicitly declared on P+ -->
 89        <uses-library
 89-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Marwa\.gradle\caches\transforms-2\files-2.1\f6b8646714b47b7db438133a675fc810\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40

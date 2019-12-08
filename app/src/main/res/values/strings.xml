@@ -1,17 +1,17 @@
 <resources>
+    <string name="textdes">Cette application est une application simple, elle facile  le choix pour  un utilisateur de trouver un hôtel pour passer les vacances, just il  seul  sinscrire, et il peut aussi trouver des informations et des localisation d hôtels</string>
     <string name="signin">Se connecter</string>
     <string name="signup">S\'inscrire</string>
-    <string name="email">Email</string>
-    <string name="password">Password</string>
+    <string name="emailText">Email</string>
+    <string name="passwordText">Password</string>
     <string name="messagesignup">enregistrement réussite</string>
     <string name="messageerreur">Vérifier Votre Email et votre mot de pass</string>
     <string name="messagesucces">Bienvenu dans notre espace</string>
     <string name="chackbox">enregistrer mes données</string>
+    <string name="messagenav">Ouvrez le tiroir de navigation</string>
 
     <string name="Chackbox">com.example.leshtelsentunisie.checkbox</string>
-    <string name="Email">com.example.leshtelsentunisie.email</string>
     <string name="Password">com.example.leshtelsentunisie.password</string>
-
 
 
     <string name="app_name">Les hôtels en tunisie</string>
@@ -162,6 +162,13 @@
     <string name="text2">" liste des hôtels en Ariana"</string>
     <string name="search">chercher</string>
     <string name="title_activity_maps_ramsam">Map</string>
+    <string name="Email">com.example.leshtelsentunisie.email</string>
+    <string name="msg">aucun contenue</string>
+    <string name="navSignIn">Se Connecter</string>
+    <string name="navSignUp">S\'inscrire</string>
+    <string name="navpropos">À propos de nous</string>
+    <string name="monnom">Sghaier Marwa</string>
+
 
 
 </resources>

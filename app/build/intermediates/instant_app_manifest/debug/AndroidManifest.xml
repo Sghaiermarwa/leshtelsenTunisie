@@ -36,15 +36,16 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.leshtelsentunisie.Signup" >
-        </activity>
-        <activity android:name="com.example.leshtelsentunisie.SignIn" >
+        <activity android:name="com.example.leshtelsentunisie.propos" />
+        <activity android:name="com.example.leshtelsentunisie.MainActivityFirstInterface" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.leshtelsentunisie.Signup" />
+        <activity android:name="com.example.leshtelsentunisie.SignIn" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -84,8 +85,7 @@
             android:name="com.example.leshtelsentunisie.MapsActivitySamron"
             android:label="@string/title_activity_maps_samron" />
         <activity android:name="com.example.leshtelsentunisie.List_Hotel_Ariana_Main_Activity" />
-        <activity android:name="com.example.leshtelsentunisie.MainActivity" >
-        </activity>
+        <activity android:name="com.example.leshtelsentunisie.MainActivity" />
         <!-- Needs to be explicitly declared on P+ -->
         <uses-library
             android:name="org.apache.http.legacy"

@@ -40,8 +40,8 @@ public class MapsActivityDarezzahra extends FragmentActivity implements OnMapRea
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(-34, 151);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
+        LatLng sydney = new LatLng(36.7406183, 10.3233033);
+        mMap.addMarker(new MarkerOptions().position(sydney).title(getString(R.string.darezzahra_Title)));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
 }

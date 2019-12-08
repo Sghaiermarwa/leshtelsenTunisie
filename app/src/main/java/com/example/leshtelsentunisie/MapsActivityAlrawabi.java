@@ -40,8 +40,8 @@ public class MapsActivityAlrawabi extends FragmentActivity implements OnMapReady
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(36.9843309, 9.081215);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Hotel Alrawabi, Route Route Nationale Tunis-Tabarka-Algérie, 9010 Nefza, Tunisie"));
+        LatLng sydney = new LatLng(36.9911132, 9.0825721);
+        mMap.addMarker(new MarkerOptions().position(sydney).title(getString(R.string.alrawabi_Title)));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
 }

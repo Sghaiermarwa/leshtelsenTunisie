@@ -89,12 +89,12 @@ public class SignIn extends AppCompatActivity {
 
                     //enregistrer l' email
                     String email =memail.getText().toString();
-                    mEditor.putString(getString(R.string.email),email);
+                    mEditor.putString(getString(R.string.Email),email);
                     mEditor.commit();
 
                     //enregistrer le password
                     String password =mpassword.getText().toString();
-                    mEditor.putString(getString(R.string.Password),email);
+                    mEditor.putString(getString(R.string.Password),password);
                     mEditor.commit();
                 }
                 else {
@@ -104,7 +104,7 @@ public class SignIn extends AppCompatActivity {
 
                     //enregister l'email
 
-                    mEditor.putString(getString(R.string.email),"");
+                    mEditor.putString(getString(R.string.Email),"");
                     mEditor.commit();
 
                     //enregister le password
@@ -128,7 +128,7 @@ public class SignIn extends AppCompatActivity {
     }
     private void checkSharedPreferences(){
         String checkbox=mPreferences.getString(getString(R.string.chackbox),"False");
-        String email=mPreferences.getString(getString(R.string.email),"");
+        String email=mPreferences.getString(getString(R.string.Email),"");
         String password=mPreferences.getString(getString(R.string.Password),"");
         memail.setText(email);
         mpassword.setText(password);

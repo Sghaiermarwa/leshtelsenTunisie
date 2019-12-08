@@ -40,8 +40,8 @@ public class MapsActivityDarsaliam extends FragmentActivity implements OnMapRead
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng sydney = new LatLng(36.81897, 10.16579);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Dar Salima, El Kessibi Mornag, Tunis, Tunis 4001"));
+        LatLng sydney = new LatLng(36.6173263, 10.2706576);
+        mMap.addMarker(new MarkerOptions().position(sydney).title(getString(R.string.darsalima_Title)));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
 }
